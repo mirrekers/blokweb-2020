@@ -6,3 +6,13 @@
 ul {
 list-style:none;
 }
+
+#nav-bar{
+  position: relative;
+}
+
+#nav-bar img:first-of-type{
+  position:absolute;
+  top:0;
+
+}
