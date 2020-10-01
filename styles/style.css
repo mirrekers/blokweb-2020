@@ -2,6 +2,6 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-ul.ba {
+ul {
   list-style-type: none;
 }
