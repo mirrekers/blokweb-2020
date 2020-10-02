@@ -60,7 +60,8 @@ button:hover{
   position:absolute;
   top:o; 
   margin:20px; padding:.5em 1em;
-  
+  text-align:center;
+  transform:translate(-50%, -50%);
 }
 #topnav li:first-of-type{
   margin-right:auto;
