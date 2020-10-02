@@ -54,7 +54,7 @@ button:hover{
   background-color: #323233;
 }
 #inleiding button{
-  text-align: center;
+  margin: auto;
 }
 #inleiding h1{
   text-align: center;
