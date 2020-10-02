@@ -63,5 +63,8 @@ button{
    color:white;
 }
 button:hover{
-  background-color: #252526;
+  background-color: #323233;
+}
+#inleiding button{
+  align-content: center;
 }
