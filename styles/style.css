@@ -26,13 +26,10 @@ margin:0;
 padding:0;
 }
 
-
-
-
 button{
   display: inline-block;
    padding: 16px 50px;
-   margin:0;
+   margin:1em;
    border-radius:75px;
    color:white;
    background-color: black;
@@ -62,6 +59,14 @@ button:hover{
   position:absolute;
   top:0; left:0; 
 }
-#justglasses h1{
 
+#justglasses{
+  position:relative;
+}
+#justglasses h1{
+position: absolute;
+left:50%; top: 50%;
+margin:0;
+text-align: center;
+color: white;
 }
