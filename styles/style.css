@@ -3,6 +3,11 @@
   box-sizing:border-box;  
 }
 
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+ 
+}
 
 li {
   margin-bottom:5vw;
@@ -14,7 +19,9 @@ img {
   width:100%;
 }
 
-
+body > p {
+  max-width:32em;
+}
 
 ul {
 list-style:none;
@@ -25,15 +32,6 @@ h1 h2 h3{
   font-family: 'Open Sans', sans-serif;
 }
 
-ul:nth-of-type(1){
-  
-  display:flex;
-}
-
-ul:nth-of-type(1) li:first-of-type{
- 
-  margin-right:auto;
-}
 
 #glassestypes{
 position:relative;
