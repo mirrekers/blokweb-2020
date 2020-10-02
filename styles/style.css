@@ -3,11 +3,6 @@
   box-sizing:border-box;  
 }
 
-body {
-  margin:0; padding:5vw;
-  font-family:sans-serif;
-  
-}
 
 li {
   margin-bottom:5vw;
@@ -58,6 +53,7 @@ button{
    padding: 0.5em 1.5em;
    margin:0 0.3em 0.3em 0;
    border-radius:2em;
+   border: none;
    color:white;
    background-color: black;
    text-align:center;
