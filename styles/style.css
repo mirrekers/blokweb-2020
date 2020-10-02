@@ -33,7 +33,7 @@ h1 h2 h3{
 }
 #nav-bar{
   position: relative;
-
+flex-flow: row;
 }
 
 #nav-bar img:first-of-type{
