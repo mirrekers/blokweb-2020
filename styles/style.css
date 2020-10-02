@@ -55,7 +55,9 @@ button:hover{
   
 
 #inleiding{
-
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+#inleiding h1{
+  font-size: x-large;
 }
