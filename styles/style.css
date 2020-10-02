@@ -32,16 +32,12 @@ h1 h2 h3{
   font-family: 'Open Sans', sans-serif;
 }
 #nav-bar{
-  position: relative;
-flex-flow: row;
+  
+display: flex;
 }
 
 #nav-bar img:first-of-type{
-  position:absolute;
-  top:0;
-  left:0;
-height:2em;
-width:15em;
+ margin-right: auto;
 }
 
 #glassestypes{
