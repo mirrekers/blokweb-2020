@@ -32,12 +32,12 @@ h1 h2 h3{
   font-family: 'Open Sans', sans-serif;
 }
 
-ul:nth-of-type(1){
+nav:nth-of-type(1){
   
   display:flex;
 }
 
-ul:nth-of-type(1) li:first-of-type{
+nav:nth-of-type(1) li:first-of-type{
  
   margin-right:auto;
 }
