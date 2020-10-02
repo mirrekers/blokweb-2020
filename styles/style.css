@@ -60,10 +60,3 @@ button:hover{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
-.topnav {
-  display: flex;
-}
-
-.topnav  li:first-of-type{
-margin-right: auto;
-}
