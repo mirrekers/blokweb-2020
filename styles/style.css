@@ -55,18 +55,8 @@ button:hover{
   position:relative;
 }
 
-#topnav li:first-of-type{
+#topnav h2{
   position:absolute;
   top:0; left:0; 
 }
 
-#justglasses{
-  position:relative;
-}
-#justglasses h1{
-position: absolute;
-left:50%; top: 50%;
-margin:0;
-text-align: center;
-color: white;
-}
