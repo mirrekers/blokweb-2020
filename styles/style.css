@@ -42,7 +42,7 @@ margin:0; padding:.5em 1em;
 button{
   display: inline-block;
    padding: 25px 65px;
-   margin:1em 2em 2em 1em;
+   margin:0;
    border-radius:99px;
    color:white;
    background-color: black;
