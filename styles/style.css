@@ -41,9 +41,9 @@ margin:0; padding:.5em 1em;
 
 button{
   display: inline-block;
-   padding: 25px 65px;
+   padding: 16px 50px;
    margin:0;
-   border-radius:99px;
+   border-radius:75px;
    color:white;
    background-color: black;
    font-size:16px;
