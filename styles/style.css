@@ -63,8 +63,12 @@ button:hover{
 #inleiding h1{
   font-size: 40px;
 }
-h2{
-  font-family: 'Open Sans', sans-serif;
-}
+
+#topnav{
+  position:relative;
 }
 
+#topnav li:first-of-type{
+  position:absolute;
+  top:0; left:0; 
+}
