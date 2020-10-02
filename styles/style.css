@@ -19,6 +19,10 @@ img {
   width:100%;
 }
 
+body > p {
+  max-width:32em;
+}
+
 ul {
 list-style:none;
 margin:0;
@@ -34,8 +38,8 @@ padding:0;
   position:absolute;
   top:0;
   left:0;
-height:4em;
-width:10em;
+height:3em;
+width:20em;
 }
 
 #glassestypes{
