@@ -53,9 +53,9 @@ margin:0; padding:.5em 1em;
   text-align:center;
 }
 #shopman p{
-  transform:capitalize;
+  text-transform:capitalize;
 }
 
 #bluelight{
-  transform: capitalize;
+  text-transform: capitalize;
 }
