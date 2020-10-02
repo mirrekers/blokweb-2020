@@ -53,6 +53,7 @@ button:hover{
 
 #topnav{
   position:relative;
+  display:flex;
 }
 
 #topnav li{
