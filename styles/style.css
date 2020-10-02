@@ -3,6 +3,21 @@
   box-sizing:border-box;  
 }
 
+body {
+  margin:0; padding:5vw;
+  font-family:sans-serif;
+  background-color:rgb(214,214,214);
+}
+
+li {
+  margin-bottom:5vw;
+  background-color:white;
+}
+
+img {
+  display:block;
+  width:100%;
+}
 
 ul {
 list-style:none;
@@ -19,8 +34,8 @@ padding:0;
   position:absolute;
   top:0;
   left:0;
-height:3em;
-width:5em;
+height:4em;
+width:10em;
 }
 
 #glassestypes{
