@@ -31,13 +31,15 @@ padding:0;
 h1 h2 h3{
   font-family: 'Open Sans', sans-serif;
 }
-#nav-bar{
+
+ul:nth-of-type(1) {
   
-display: flex;
+  display:flex;
 }
 
-#nav-bar img:first-of-type{
- margin-right: auto;
+ul:nth-of-type(1) li:first-of-type {
+ 
+  margin-right:auto;
 }
 
 #glassestypes{
