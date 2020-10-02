@@ -29,7 +29,7 @@ padding:0;
 button{
   display: inline-block;
    padding: 16px 50px;
-   margin:10px;
+   margin:5px;
    border-radius:75px;
    color:white;
    background-color: black;
@@ -57,6 +57,8 @@ button:hover{
 
 #topnav h2{
   position:absolute;
-  top:0; left:0; 
+  top:50%; left:50%; 
+  margin:0; padding:.5em 1em;
+  text-align:center;
 }
 
