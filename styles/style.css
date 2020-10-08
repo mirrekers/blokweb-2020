@@ -9,6 +9,9 @@ body {
  
 }
 
+@media (min-width:38em) { body { padding:3vw; } }
+@media (min-width:57em) { body { padding:2.5vw; } }
+
 li {
   margin-bottom:5vw;
   
@@ -26,10 +29,14 @@ margin:0;
 padding:0;
 }
 
-  #topnav  a{
-    display: inline;
+  nav ul{
+    display: flex;
   }
-
+nav li{
+  margin:0; padding:0;
+  flex-basis:4.5em;
+  flex-grow:1;
+}
 #inleiding{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
