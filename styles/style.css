@@ -26,7 +26,9 @@ margin:0;
 padding:0;
 }
 
-  
+  #topnav {
+    display: inline;
+  }
 
 #inleiding{
   text-align: center;
