@@ -26,7 +26,7 @@ margin:0;
 padding:0;
 }
 
-  #topnav {
+  #topnav  a{
     display: inline;
   }
 
