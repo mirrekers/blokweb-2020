@@ -26,21 +26,6 @@ margin:0;
 padding:0;
 }
 
-#button{
-  display: inline-block;
-   padding: 16px 50px;
-   margin:5px;
-   border-radius:75px;
-   color:white;
-   background-color: black;
-   font-size:16px;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   
-}
-a:hover{
-  background-color: #323233;
-}
   
 
 #inleiding{
@@ -49,6 +34,21 @@ a:hover{
 }
 #inleiding h1{
   font-size: 40px;
+}
+#inleiding a{
+  
+    display: inline-block;
+     padding: 16px 50px;
+     margin:5px;
+     border-radius:75px;
+     color:white;
+     background-color: black;
+     font-size:16px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     border:none;
+     
+  
 }
 
 #form{
