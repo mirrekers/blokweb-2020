@@ -70,6 +70,16 @@ nav li{
   
 }
 
+#justglasses{
+position:relative;
+}
+
+#justglasses h2{
+  position:absolute;
+  left:50%; top:50%;
+  margin:0; padding:.5em 1em;
+  text-align:center;
+}
 #form{
   background-color:#003399 ;
   color:white;
