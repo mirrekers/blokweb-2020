@@ -37,6 +37,9 @@ nav li{
   flex-basis:3em;
   flex-grow:1;
 }
+ul:nth-of-type(1) li:first-of-type{
+  margin-right:auto;
+}
 #inleiding{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
