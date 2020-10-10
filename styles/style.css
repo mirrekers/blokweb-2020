@@ -81,6 +81,7 @@ position:relative;
   text-align:center;
   margin-bottom: 10px;
   font-family:'Open Sans', sans-serif;
+  color:white;
 }
 #justsunglasses{
   position:relative;
@@ -93,8 +94,9 @@ position:relative;
   text-align:center;
   margin-bottom: 20px;
   font-family:'Open Sans', sans-serif;
+  color:white;
 }
-}
+
 
 #form{
   background-color:#003399 ;
