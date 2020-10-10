@@ -16,15 +16,16 @@ li {
   margin-bottom:5vw;
   
 }
+
 p{
   font-family:'Open Sans', sans-serif;
   font-weight:400;
 }
+
 img {
   display:block;
   width:100%;
 }
-
 
 ul {
 list-style:none;
@@ -35,6 +36,7 @@ padding:0;
 nav ul {
   display:flex;
 }
+
 nav li{
   margin:0; padding:0;
   flex-basis:3em;
@@ -47,9 +49,11 @@ nav li{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+
 #inleiding h1{
   font-size: 40px;
 }
+
 #inleiding a{
   
     display: inline-block;
