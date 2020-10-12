@@ -4,7 +4,7 @@
 }
 
 main {
-  margin:0; padding:4vw;
+  margin:0; padding:3vw;
   max-width:32em;
  
 }
@@ -81,6 +81,7 @@ nav li{
 #justglasses{
 position:relative;
 margin-bottom: 2em;
+margin:3em;
 }
 
 #justglasses h2{
@@ -94,6 +95,7 @@ margin-bottom: 2em;
 #justsunglasses{
   position:relative;
  margin-bottom: 5em;
+ margin:3em;
 }
 
 #justsunglasses h2{
