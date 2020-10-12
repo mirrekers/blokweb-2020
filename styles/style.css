@@ -127,6 +127,11 @@ margin:3em 1.75em 3em 1.75em;
   margin:0.5em;
 }
 
+#bluelight img{
+  width:100%;
+  display: block;
+}
+
 #form{
   background-color:#003399 ;
   color:white;
