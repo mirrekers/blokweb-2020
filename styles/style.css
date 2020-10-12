@@ -82,8 +82,8 @@ nav li{
 
 #justglasses{
 position:relative;
-margin:1.75em;
-margin-bottom: 3em;
+margin:3em 1.75em 3em 1.75em;
+
 }
 
 #justglasses h2{
@@ -97,7 +97,7 @@ margin-bottom: 3em;
 #justsunglasses{
   position:relative;
  margin-bottom: 5em;
- margin:1.75em;
+ margin:3em 1.75em 3em 1.75em;
 }
 
 #justsunglasses h2{
