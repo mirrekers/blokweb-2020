@@ -74,9 +74,13 @@ nav li{
   
 }
 
+#shopnow{
+  margin-bottom:2em;
+}
+
 #justglasses{
 position:relative;
-
+margin-bottom: 2em;
 }
 
 #justglasses h2{
@@ -84,13 +88,12 @@ position:relative;
   left:50%; top:50%; 
   margin:0; padding:0.5em 1em;
   text-align:center;
-  margin-bottom: 10px;
   font-family:'Open Sans', sans-serif;
   color:white;
 }
 #justsunglasses{
   position:relative;
- 
+ margin-bottom: 2em;
 }
 
 #justsunglasses h2{
@@ -101,6 +104,7 @@ position:relative;
   margin-bottom: 20px;
   font-family:'Open Sans', sans-serif;
   color:white;
+
 }
 
 
@@ -108,4 +112,5 @@ position:relative;
   background-color:#003399 ;
   color:white;
  padding:2em 4em 2em 4em;
+ font-family: 'Open Sans', sans-serif;
 }
