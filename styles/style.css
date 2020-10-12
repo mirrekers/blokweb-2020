@@ -47,9 +47,16 @@ nav li{
   justify-content: space-between;
  
 }
+
+nav ul:nth-of-type(1) li:first-of-type {
+  
+  margin-right:auto;
+}
 #logo{
   width:6em;
 }
+
+
 nav img{
   width:2em;
   height:2em;
