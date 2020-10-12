@@ -37,12 +37,14 @@ h2{
 }
 nav ul {
   display:flex;
+  flex-flow:row;
 }
 
 nav li{
   margin:0; padding:0;
   flex-basis:3em;
   flex-grow:1;
+  justify-content: space-between;
  
 }
 
