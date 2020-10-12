@@ -38,6 +38,7 @@ h2{
 nav ul {
   display:flex;
   flex-flow:row;
+  height:48px;
 }
 
 nav li{
