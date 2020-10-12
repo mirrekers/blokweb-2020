@@ -76,12 +76,13 @@ nav li{
 
 #shopnow{
   margin-bottom:2em;
+  margin-top: 3em;
 }
 
 #justglasses{
 position:relative;
 margin-bottom: 2em;
-margin:3em;
+margin:2em;
 }
 
 #justglasses h2{
@@ -95,7 +96,7 @@ margin:3em;
 #justsunglasses{
   position:relative;
  margin-bottom: 5em;
- margin:3em;
+ margin:2em;
 }
 
 #justsunglasses h2{
