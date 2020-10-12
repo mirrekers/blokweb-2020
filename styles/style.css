@@ -107,5 +107,5 @@ position:relative;
 #form{
   background-color:#003399 ;
   color:white;
-box-sizing: inherit;
+ padding:2em 4em 2em 4em;
 }
