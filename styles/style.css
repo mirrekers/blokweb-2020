@@ -40,7 +40,6 @@ h2{
 
 nav ul {
   display:flex;
-  flex-flow:row;
   
 }
 
@@ -50,6 +49,9 @@ nav li{
   flex-grow:1;
   justify-content: space-between;
  
+}
+#logo{
+  width:6em;
 }
 nav img{
   width:2em;
