@@ -13,10 +13,7 @@ main {
 @media (min-width:57em) { body { padding:2.5vw; } }
 
 
-p{
-  font-family:'Open Sans', sans-serif;
-  font-weight:400;
-}
+
 
 img {
   display:block;
@@ -76,14 +73,10 @@ nav img{
   
 }
 
-#shopnow{
-  margin-bottom:2em;
-  margin-top: 3em;
-}
 #heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 300;
 }
 
@@ -115,8 +108,6 @@ margin:3em 2em 4em 2em;
 
 }
 
-
-
 #bluelight a{
 
   padding: 15px 50px;
@@ -139,9 +130,26 @@ margin:3em 2em 4em 2em;
 #bluelight h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-
+  font-size:36px;
 }
 
+#test img{
+width:100%;
+object-fit: cover;
+display :block;
+
+}
+#test p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+#test h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
 #form{
   background-color:#003399 ;
   color:white;
