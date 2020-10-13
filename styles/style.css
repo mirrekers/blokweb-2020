@@ -156,7 +156,7 @@ margin:3em 2em 4em 2em;
   text-transform: uppercase;
 }
 .blpositioning{
-  margin-left: 2em;
+  margin:3em 0 3em 2em;
 }
 
 #test img{
@@ -165,6 +165,17 @@ object-fit: cover;
 display :block;
 
 }
+#eyetest h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size:36px;
+  font-weight: 300;
+}
+#eyetest p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 #tryon p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
