@@ -140,6 +140,11 @@ margin:3em 2em 4em 2em;
   font-size:25px;
 }
 
+#bluelight p{
+  font-family:'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
 #test img{
 width:100%;
 object-fit: cover;
