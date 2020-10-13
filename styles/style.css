@@ -114,9 +114,11 @@ margin:3em 2em 4em 2em;
   color:white;
 
 }
-#bluelight{
-  margin:6em;
+
+#bluelight p h2 a {
+  margin:5em;
 }
+
 #bluelight a{
 
   padding: 15px 50px;
