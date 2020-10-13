@@ -12,10 +12,6 @@ main {
 @media (min-width:38em) { body { padding:3vw; } }
 @media (min-width:57em) { body { padding:2.5vw; } }
 
-li {
-  margin-bottom:5vw;
-  
-}
 
 p{
   font-family:'Open Sans', sans-serif;
@@ -87,7 +83,7 @@ nav img{
 
 #justglasses{
 position:relative;
-margin:3em 1.75em 3em 1.75em;
+margin:3em 2em 3em 2em;
 
 }
 
@@ -102,7 +98,7 @@ margin:3em 1.75em 3em 1.75em;
 #justsunglasses{
   position:relative;
  margin-bottom: 5em;
- margin:3em 1.75em 3em 1.75em;
+ margin:3em 2em 3em 2em;
 }
 
 #justsunglasses h2{
@@ -129,7 +125,7 @@ margin:3em 1.75em 3em 1.75em;
   text-transform: uppercase;
   text-decoration: none;
   font-family:'Open Sans', sans-serif;
-  margin:0.5em;
+  margin:1em;
 }
 
 #bluelight img{
