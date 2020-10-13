@@ -73,6 +73,10 @@ nav img{
   
 }
 
+#inleiding a:hover{
+  background-color: slategrey;
+}
+
 #heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
