@@ -78,6 +78,16 @@ nav img{
   background-color:rgb(73, 73, 73);
 }
 
+#shopnow{
+margin:2.5em 0 2.5em;
+}
+
+#shopnow a{
+text-transform:uppercase;
+font-family:'Open Sans', sans-serif;
+margin: 2em 0;
+}
+
 #heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
