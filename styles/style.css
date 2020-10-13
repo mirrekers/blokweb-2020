@@ -80,6 +80,10 @@ nav img{
   margin-bottom:2em;
   margin-top: 3em;
 }
+#heading{
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+}
 
 #justglasses{
 position:relative;
