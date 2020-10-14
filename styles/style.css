@@ -184,6 +184,9 @@ font-weight: 300;
 font-size:1.5em;
 }
 
+#tryon{
+  margin: 4em 0 4em 0;
+}
 #tryon p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
@@ -191,6 +194,19 @@ font-size:1.5em;
 }
 
 #tryon h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#vrtryon{
+  margin: 4em 0 4em 0;
+}
+#vrtryon p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#vrtryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
 }
