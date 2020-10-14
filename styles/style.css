@@ -172,9 +172,9 @@ display :block;
 #eyetest h2{
   font-size:36px;
    text-align: center;
+  font-weight:300;
 }
 #eyetest p{
-
   text-transform: uppercase;
 }
 
