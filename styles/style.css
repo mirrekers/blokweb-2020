@@ -85,7 +85,7 @@ margin:2.5em 0 2.5em;
 #shopnow a{
 text-transform:uppercase;
 font-family:'Open Sans', sans-serif;
-margin: 2em 0;
+margin:2em 1em 0 0 ; 
 }
 
 #heading{
@@ -187,7 +187,6 @@ display :block;
 #tryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-
 }
 #form{
   background-color:#003399 ;
