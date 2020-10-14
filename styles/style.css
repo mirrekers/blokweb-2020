@@ -87,6 +87,7 @@ text-transform:uppercase;
 font-family:'Open Sans', sans-serif;
 margin:2em 1em 0 0 ; 
 color:black;
+font-size: 16px;
 }
 
 #heading{
@@ -167,7 +168,7 @@ display :block;
 #eyetest{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin: 3em 0 3em 0;
+  margin: 4em 0 4em 0;
 }
 
 #eyetest h2{
