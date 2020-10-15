@@ -237,6 +237,19 @@ font-size:1.5em;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
 }
+#feed{
+  background-color: #F9F9FB;
+}
+#feed h3{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+}
+#feed p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 #form{
   background-color:#003399 ;
