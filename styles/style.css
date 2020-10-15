@@ -125,7 +125,6 @@ margin:3em 2em 4em 2em;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
   margin:0; padding: 0.5em 1em;
-  margin-bottom: 20px;
   font-family:'Open Sans', sans-serif;
   color:white;
   font-size: 50px;
@@ -291,4 +290,5 @@ color:black;
   background-color:#003399 ;
   color:white;
  font-family: 'Open Sans', sans-serif;
+ margin:4em 2em 4em 2em;
 }
