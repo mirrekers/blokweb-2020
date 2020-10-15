@@ -112,6 +112,7 @@ margin:3em 2em 4em 2em;
   font-family:'Open Sans', sans-serif;
   color:white;
   font-size: 30px;
+  font-weight: 400;
 }
 #justsunglasses{
   position:relative;
@@ -125,7 +126,8 @@ margin:3em 2em 4em 2em;
   margin-bottom: 20px;
   font-family:'Open Sans', sans-serif;
   color:white;
-
+  font-size: 30px;
+  font-weight: 400;
 }
 #bluelight{
   margin:3em 0 3em;
