@@ -107,8 +107,8 @@ margin:3em 2em 4em 2em;
 
 #justglasses h2{
   position:absolute;
-  left:45%; top:55%; 
-  margin:0; padding:0.5em 1em;
+left:calc(50%-1em);
+top:calc(50%-1em);
   font-family:'Open Sans', sans-serif;
   color:white;
   font-size: 30px;
