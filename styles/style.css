@@ -270,6 +270,7 @@ font-size:1.5em;
 }
 #stores{
   margin: 4em 0 4em 0;
+  background-color: #E6E6E6;
 }
 #stores h3{
   font-family:'Open Sans', sans-serif;
@@ -278,7 +279,7 @@ font-size:1.5em;
 #stores p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-  background-color: #E6E6E6;
+  
 }
 #stores a{
 text-transform: uppercase;
