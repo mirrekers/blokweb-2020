@@ -187,7 +187,7 @@ font-size:1.5em;
 }
 
 #tryon{
-  margin: 4em 0 4em 0;
+  margin: 5em 0 5em 0;
 }
 #tryon p{
   font-family:'Open Sans', sans-serif;
@@ -201,7 +201,7 @@ font-size:1.5em;
 }
 
 #vrtryon{
-  margin: 4em 0 4em 0;
+  margin: 5em 0 5em 0;
 }
 #vrtryon p{
   font-family:'Open Sans', sans-serif;
@@ -212,6 +212,32 @@ font-size:1.5em;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
 }
+#recycle{
+  margin: 5em 0 5em 0;
+}
+#recycle p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#recycle h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#recycle a{
+  padding: 15px 50px;
+  border-radius:75px;
+  color:white;
+  background-color: black;
+  font-size:12px;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  margin-top:1em;
+}
+
 #form{
   background-color:#003399 ;
   color:white;
