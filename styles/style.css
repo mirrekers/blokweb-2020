@@ -239,7 +239,9 @@ font-size:1.5em;
 }
 #feed{
   background-color: #F9F9FB;
+  margin: 4em 0 4em 0;
 }
+
 #feed h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
