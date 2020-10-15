@@ -250,6 +250,7 @@ margin:3em 2em 3em 2em;
 #feed h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 600;
+  margin-top:2em;
 
 }
 #feed p{
@@ -257,14 +258,21 @@ margin:3em 2em 3em 2em;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 2em;
 }
 #stores h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
 }
-#stores img{
-  width:180px;
-  height:151;
+#stores p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+#stores a{
+text-transform: uppercase;
+font-family:'Open Sans', sans-serif;
+font-size: 21px;
+color:black;
 }
 #form{
   background-color:#003399 ;
