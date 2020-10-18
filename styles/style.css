@@ -269,16 +269,16 @@ font-size:1.5em;
   margin-bottom: 2em;
 }
 .feed img{
-transition: transform .3s;
+transition: transform .2s;
 transition-timing-function: ease-in;
 width:100%;
 height:100%;
-margin:0 auto;
+object-fit: cover;
 }
 
 .feed img:hover{
-  transform:scale(0.80);
-  display: block;
+  transform:scale(1.1);
+
 }
 .stores{
   margin: 4em 0 4em 0;
