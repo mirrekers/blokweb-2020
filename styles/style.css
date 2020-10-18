@@ -270,6 +270,7 @@ font-size:1.5em;
 }
 .feed img{
 transition: transform .3s;
+transition-timing-function: ease-in;
 width:100%;
 height:100%;
 margin:0 auto;
