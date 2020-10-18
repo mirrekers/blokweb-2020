@@ -47,18 +47,18 @@ nav img{
   height:1.5em;
 }
 
-#inleiding{
+.inleiding{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   margin: 2.5em 0 2.5em;
 }
 
-#inleiding h1{
+.inleiding h1{
   font-size: 40px;
 }
 
-#inleiding a{
+.inleiding a{
   
     display: inline-block;
      padding: 16px 50px;
@@ -74,17 +74,17 @@ nav img{
   
 }
 
-#inleiding a:hover{
+.inleiding a:hover{
   background-color:rgb(73, 73, 73);
 }
 
-#shopnow{
+.shopnow{
 display:flex;
 flex-direction: column;
 justify-content: center;
 }
 
-#shopnow a{
+.shopnow a{
 text-transform:uppercase;
 font-family:'Open Sans', sans-serif;
 margin:1em;
@@ -92,20 +92,20 @@ color:black;
 font-size: 16px;
 }
 
-#heading{
+.heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
   font-size: 36px;
   font-weight: 300;
 }
 
-#justglasses{
+.justglasses{
 position:relative;
 margin:3em 2em 4em 2em;
 
 }
 
-#justglasses h2{
+.justglasses h2{
   position:absolute;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
@@ -115,12 +115,12 @@ margin:3em 2em 4em 2em;
   font-size: 50px;
   font-weight: 400;
 }
-#justsunglasses{
+.justsunglasses{
   position:relative;
  margin:3em 2em 4em 2em;
 }
 
-#justsunglasses h2{
+.justsunglasses h2{
   position:absolute;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
@@ -130,11 +130,11 @@ margin:3em 2em 4em 2em;
   font-size: 50px;
   font-weight: 400;
 }
-#bluelight{
+.bluelight{
   margin:3em 0 3em;
 }
 
-#bluelight a{
+.bluelight a{
 
   padding: 15px 50px;
   border-radius:75px;
@@ -148,88 +148,88 @@ margin:3em 2em 4em 2em;
   margin-top:1em;
 }
 
-#bluelight img{
+.bluelight img{
   width:100%;
  object-fit: cover;
   display: block;
 }
-#bluelight h2{
+.bluelight h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   font-size:25px;
 }
 
-#bluelight p{
+.bluelight p{
   font-family:'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
 
-#test img{
+.test img{
 width:100%;
 object-fit: cover;
 display :block;
 
 }
-#eyetest{
+.eyetest{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin: 4em 0 4em 0;
 }
 
-#eyetest h2{
+.eyetest h2{
   font-size:36px;
    text-align: center;
   font-weight:300;
 }
-#eyetest p{
+.eyetest p{
   text-transform: uppercase;
 }
-#eyetest h3{
+.eyetest h3{
 font-weight: 300;
 font-size:1.5em;
 }
 
-#tryon{
+.tryon{
   margin: 5em 0 5em 0;
 }
-#tryon p{
+.tryon p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
 }
 
-#tryon h2{
+.tryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-#vrtryon{
+.vrtryon{
   margin: 5em 0 5em 0;
 }
-#vrtryon p{
+.vrtryon p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
 }
-#vrtryon h2{
+.vrtryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
 }
-#recycle{
+.recycle{
   margin: 5em 0 5em 0;
 }
-#recycle p{
+.recycle p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
 }
-#recycle h2{
+.recycle h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-#recycle a{
+.recycle a{
   padding: 15px 50px;
   border-radius:75px;
   color:white;
@@ -244,52 +244,52 @@ font-size:1.5em;
 
 
 
-#feed{
+.feed{
   display:grid;
   grid-template-rows:repeat(autofill, minmax(200px,1fr)) ;
   grid-gap:10px;
   background-color: #F9F9FB;
 
 }
-#feed > li{
+.feed > li{
   padding: 1.5rem;
   border-radius: 1rem;
 }
-#feed h3{
+.feed h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 600;
   margin-top:2em;
 
 }
-#feed p{
+.feed p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 2em;
 }
-#stores{
+.stores{
   margin: 4em 0 4em 0;
   background-color: #E6E6E6;
   margin:3.5em 1em 3.5em 1em;
 }
-#stores h3{
+.stores h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
 }
-#stores p{
+.stores p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   
 }
-#stores a{
+.stores a{
 text-transform: uppercase;
 font-family:'Open Sans', sans-serif;
 font-size: 18px;
 color:black;
 }
 
-#form{
+.form{
   background-color:#003399 ;
   color:white;
  font-family: 'Open Sans', sans-serif;
