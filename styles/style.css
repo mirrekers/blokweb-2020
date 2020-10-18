@@ -271,6 +271,7 @@ font-size:1.5em;
 #stores{
   margin: 4em 0 4em 0;
   background-color: #E6E6E6;
+  margin:3.5em 1em 3.5em 1em;
 }
 #stores h3{
   font-family:'Open Sans', sans-serif;
@@ -293,5 +294,5 @@ color:black;
   color:white;
  font-family: 'Open Sans', sans-serif;
 padding:3em 1.5em 3em 1.5em;
-margin:3.5em 1em 3.5em 1em;
+
 }
