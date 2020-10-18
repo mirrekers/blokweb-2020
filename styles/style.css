@@ -269,14 +269,14 @@ font-size:1.5em;
   margin-bottom: 2em;
 }
 .feed img{
-transition: transform .2s;
+transition: transform .3s;
 width:100%;
 height:100%;
 margin:0 auto;
 }
 
 .feed img:hover{
-  transform:scale(1.5);
+  transform:scale(0.5);
 }
 .stores{
   margin: 4em 0 4em 0;
