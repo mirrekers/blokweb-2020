@@ -147,7 +147,9 @@ margin:3em 2em 4em 2em;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
 }
-
+.bluelight a:hover{
+  background-color:rgb(73, 73, 73);
+}
 .bluelight img{
   width:100%;
  object-fit: cover;
@@ -241,7 +243,9 @@ font-size:1.5em;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
 }
-
+.recyle a:hover{
+  background-color:rgb(73, 73, 73);
+}
 
 
 .feed{
