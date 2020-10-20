@@ -127,7 +127,11 @@ margin:3em 2em 4em 2em;
   font-weight: 400;
 }
 .bluelight{
-  margin:3em 0 3em;
+  
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .bluelight a{
