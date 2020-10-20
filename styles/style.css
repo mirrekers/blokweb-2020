@@ -3,11 +3,7 @@
   box-sizing:border-box;  
 }
 
-main {
-  margin:0; 
-  max-width:32em;
- 
-}
+
 
 @media (min-width:38em) { body { padding:3vw; } }
 @media (min-width:57em) { body { padding:2.5vw; } }
