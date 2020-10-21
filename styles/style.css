@@ -318,5 +318,6 @@ padding:3em 1.5em 3em 1.5em;
 
 .bestsellers{
   background-color:#F4E6DB;
-  
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
 }
