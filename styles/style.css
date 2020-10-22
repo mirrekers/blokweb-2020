@@ -324,6 +324,20 @@ padding:3em 1.5em 3em 1.5em;
   padding:3em 2em 3em 2em;
 }
 .filtering{
-  width:6em;
-  height:6em;
+  width:8em;
+  height:8em;
+}
+.style1{
+  position: relative;
+}
+
+.style1 .hoverimage{
+  position: absolute;
+  left:0;
+  top:0;
+  display:none
+}
+
+.style1:hover .hoverimage{
+  display: block;
 }
