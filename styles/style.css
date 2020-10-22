@@ -348,7 +348,7 @@ padding:3em 1.5em 3em 1.5em;
 }
 
 .style1:hover .hoverimage{
-  display: block;
+  display: flex;
 }
 
 .style1 img{
