@@ -330,11 +330,11 @@ padding:3em 1.5em 3em 1.5em;
 .style1{
   position: relative;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
+  gap: 4px;
   padding-left: 0px;
   padding-right: 0px;
   display: grid;
-    gap: 10px 2rem;
+    gap: 5px 1rem;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
     padding: 2rem;
