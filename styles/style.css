@@ -343,7 +343,7 @@ flex-direction: column;
 }
 .style1{
   margin:10px;
-  
+  flex-basis: 210px;
   font-family:'Open Sans', sans-serif;
 }
 
