@@ -328,19 +328,13 @@ padding:3em 1.5em 3em 1.5em;
   height:8em;
   margin-top: 3em;
 }
-.style1{
-  position: relative;
-  margin:0;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-  padding-left: 0px;
-  padding-right: 0px;
-  display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    overflow: hidden;
-    padding: 2rem;
+.flexbox-test{
+  display:flex;
 }
-
+.topimage{
+  position: relative;
+  float: left;
+}
 .style1 .hoverimage{
   position: absolute;
   left:0;
