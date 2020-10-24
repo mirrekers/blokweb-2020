@@ -331,11 +331,11 @@ padding:3em 1.5em 3em 1.5em;
 .style1{
   position: relative;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4px;
+  gap: 2px;
   padding-left: 0px;
   padding-right: 0px;
   display: grid;
-    gap: 5px 1rem;
+    gap: 2px 0.5rem;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
     padding: 2rem;
@@ -352,7 +352,3 @@ padding:3em 1.5em 3em 1.5em;
   display: flex;
 }
 
-.style1 img{
-  width:190px;
-  height: 250px;
-}
