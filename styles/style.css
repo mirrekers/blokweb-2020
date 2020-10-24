@@ -331,7 +331,7 @@ padding:3em 1.5em 3em 1.5em;
 
 .flexbox-test{
   display:flex;
-
+flex-direction: column;
 }
 
 .topimage .hoverimage{
@@ -349,9 +349,4 @@ padding:3em 1.5em 3em 1.5em;
 
 .style1:hover .hoverimage{
   display: block;
-}
-.style1 img{
-width: 190px;
-height:230px;
-
 }
