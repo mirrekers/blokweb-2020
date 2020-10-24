@@ -332,10 +332,7 @@ padding:3em 1.5em 3em 1.5em;
   display:flex;
 
 }
-.topimage{
-  position: relative;
-  float: left;
-}
+
 .topimage .hoverimage{
   position: absolute;
   left:0;
