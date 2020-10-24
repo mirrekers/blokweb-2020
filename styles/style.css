@@ -333,7 +333,7 @@ padding:3em 1.5em 3em 1.5em;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-content: center;
 }
 
