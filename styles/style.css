@@ -328,9 +328,10 @@ padding:3em 1.5em 3em 1.5em;
   height:8em;
   margin-top: 3em;
 }
+
 .flexbox-test{
   display:flex;
-  flex-direction: column;
+
 }
 
 .topimage .hoverimage{
@@ -341,7 +342,8 @@ padding:3em 1.5em 3em 1.5em;
 
 }
 .style1{
-  margin-bottom: 16px;
+  margin:10px;
+  
   font-family:'Open Sans', sans-serif;
 }
 
