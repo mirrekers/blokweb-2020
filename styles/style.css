@@ -330,7 +330,7 @@ padding:3em 1.5em 3em 1.5em;
 }
 .flexbox-test{
   display:flex;
-
+  flex-direction: column;
 }
 
 .topimage .hoverimage{
