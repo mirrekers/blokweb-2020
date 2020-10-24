@@ -330,6 +330,7 @@ padding:3em 1.5em 3em 1.5em;
 }
 .style1{
   position: relative;
+  margin:0;
   grid-template-columns: repeat(2, 1fr);
   gap: 2px;
   padding-left: 0px;
@@ -345,6 +346,7 @@ padding:3em 1.5em 3em 1.5em;
   left:0;
   top:0;
   display:none
+
 }
 
 .style1:hover .hoverimage{
@@ -353,5 +355,5 @@ padding:3em 1.5em 3em 1.5em;
 .style1 img{
 width: 190px;
 height:230px;
-margin:0;
+
 }
