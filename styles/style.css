@@ -330,7 +330,7 @@ padding:3em 1.5em 3em 1.5em;
 }
 .flexbox-test{
   display:flex;
-  flex-flow: column;
+
 }
 .topimage{
   position: relative;
@@ -343,7 +343,9 @@ padding:3em 1.5em 3em 1.5em;
   display:none
 
 }
-
+.style1{
+  flex-flow: column;
+}
 .style1:hover .hoverimage{
   display: block;
 }
