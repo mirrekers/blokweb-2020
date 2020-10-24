@@ -332,8 +332,11 @@ padding:3em 1.5em 3em 1.5em;
   display:flex;
   flex-flow: column;
 }
-
-.style1 .hoverimage{
+.topimage{
+  position: relative;
+  float: left;
+}
+.topimage .hoverimage{
   position: absolute;
   left:0;
   top:0;
