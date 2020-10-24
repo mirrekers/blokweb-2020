@@ -331,7 +331,7 @@ padding:3em 1.5em 3em 1.5em;
 
 .flexbox-test{
   display:flex;
-flex-direction: column;
+flex-direction: row;
 }
 
 .topimage .hoverimage{
@@ -343,8 +343,8 @@ flex-direction: column;
 }
 .style1{
   margin:10px;
-  max-width: 350px;
-  max-width: 350px;
+  max-width: 150px;
+  max-width: 150px;
   font-family:'Open Sans', sans-serif;
 }
 
