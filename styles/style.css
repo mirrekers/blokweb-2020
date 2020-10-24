@@ -335,8 +335,8 @@ padding:3em 1.5em 3em 1.5em;
 
 .topimage .hoverimage{
   position: absolute;
-  left:0;
-  top:0;
+  left:100px;
+  top:50px;
   display:none
 
 }
