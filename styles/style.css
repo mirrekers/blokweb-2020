@@ -330,27 +330,44 @@ padding:3em 1.5em 3em 1.5em;
 }
 
 .flexbox-test{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-content: center;
+  display:flex; 
+  flex-wrap: wrap;
+  margin:-10px;
+} 
+.flexbox-test>*{
+  flex: 1 1 160px;
+  margin: 10px;
 }
-
-.topimage .hoverimage{
+ .style1 .hoverimage{
   position: absolute;
-  left:100px;
-  top:50px;
-  display:none
+  left:0px;
+  top:0px;
+  display:none;
 
 }
 .style1{
   margin:10px;
   font-family:'Open Sans', sans-serif;
-  box-sizing: border-box;
-  
 }
 
 .style1:hover .hoverimage{
   display: block;
+}
+.style1 h2{
+text-align: center;
+margin:0;
+}
+.style1 p{
+  text-align: center;
+margin:0;
+}
+.style1 button{
+  background-color: white;
+  padding:5px 10px 5px 10px;
+  align-content: center;
+  margin: 25px;
+  font-size:14px ;
+  text-transform: uppercase;
+  border-radius: 5px;
+
 }
