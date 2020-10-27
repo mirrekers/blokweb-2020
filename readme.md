@@ -37,8 +37,8 @@ Html chaotisch - HTML FORMATTER
 - footer ook oplossen met een section 
 - form geen get maar post request
 - font size in em 
-- geen spatie 
 - Onnodige li's en ul's weghalen
+- sections gebruiken
 
 ## Voortgang 2 (week 5)
 
@@ -48,7 +48,7 @@ Niet aanwezig: Ziek
 
 ### Stand van zaken
 
--Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen-
+-Ik heb heel veel gepuzzeld met de html opbouw, ik moest er nog even inkomen weer na zolang niet te hebben gebruikt. Met behulp van de codepen opdachten had ik alvast een start gemaakt met hoe het daar aangewezen werd en later werd ik erop aangewezen hoe het moet. Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen. Verder was grid uitzoeken best lang, heb alles zoeen beetje getest tot ik kreeg wat ik zocht, zelfde geld voor flexbox. Uiteidelijk is het wel gelukt en snap ik het wel meer.-
 
 **Screenshot(s):**
 
