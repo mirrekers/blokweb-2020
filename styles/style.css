@@ -62,7 +62,7 @@ nav img{
      border-radius:75px;
      color:white;
      background-color: black;
-     font-size:16px;
+     font-size:1em;
      letter-spacing: 2px;
      text-transform: uppercase;
      text-decoration: none;
@@ -85,13 +85,13 @@ text-transform:uppercase;
 font-family:'Open Sans', sans-serif;
 margin:1em;
 color:black;
-font-size: 16px;
+font-size: 1em;
 }
 
 .heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 300;
 }
 
@@ -108,7 +108,7 @@ margin:3em 2em 4em 2em;
   margin:0; padding: 0.5em 1em;
   font-family:'Open Sans', sans-serif;
   color:white;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 400;
 }
 .justsunglasses{
@@ -123,7 +123,7 @@ margin:3em 2em 4em 2em;
   margin:0; padding: 0.5em 1em;
   font-family:'Open Sans', sans-serif;
   color:white;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 400;
 }
 .bluelight{
@@ -137,7 +137,7 @@ margin:3em 2em 4em 2em;
   border-radius:75px;
   color:white;
   background-color: black;
-  font-size:12px;
+  font-size: 0.75em;
   letter-spacing:2px;
   text-transform: uppercase;
   text-decoration: none;
@@ -155,7 +155,7 @@ margin:3em 2em 4em 2em;
 .bluelight h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-  font-size:36px;
+  font-size:2.25em;
 }
 
 .bluelight p{
@@ -233,7 +233,7 @@ font-size:1.5em;
   border-radius:75px;
   color:white;
   background-color: black;
-  font-size:12px;
+  font-size:0.75em;
   letter-spacing:2px;
   text-transform: uppercase;
   text-decoration: none;
@@ -306,7 +306,7 @@ overflow: hidden;
 .stores a{
 text-transform: uppercase;
 font-family:'Open Sans', sans-serif;
-font-size: 18px;
+font-size: 1.125em;
 color:black;
 margin-top: 30px 0 60px;
 
@@ -316,7 +316,7 @@ margin-top: 30px 0 60px;
   background-color:#003399 ;
   color:white;
  font-family: 'Open Sans', sans-serif;
-padding:3em 1.5em 3em 1.5em;
+ padding:3em 1.5em 3em 1.5em;
 
 }
  input{
@@ -330,7 +330,7 @@ padding:3em 1.5em 3em 1.5em;
  border-top-style: none;
  border-right-style: none;
  border-left-style: none;
-  font-size:16px;
+  font-size:1em;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -343,7 +343,7 @@ color:white;
 border-style: none;
 text-transform: uppercase;
 font-weight: 300;
-font-size: 14px;
+font-size: 0.875em;
 }
 .form button:hover{
   font-weight: 600;
@@ -401,7 +401,7 @@ font-size: 14px;
 .hoverbutton{
   background-color: white;
   padding:5px 10px 5px 10px;
-  font-size:14px ;
+  font-size:0.875em;
   text-transform: uppercase;
   border-radius: 5px;
   border-width: thin;
