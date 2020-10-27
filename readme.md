@@ -74,13 +74,12 @@ Niet aanwezig: Ziek
 ** Ik zal mij meer richten op de surface plane van de website. Als het goed gaat kan ik kijken voor responsive maar ik richt mij nu vooral op de surface plane**
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
-** https://www.asos.com/women/
+** https://www.aceandtate.com/nl-en/
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+
 ![websitescreenshots](images/Screenshot 2020-10-27 at 22.41.45.png)
 ![websitescreenshot](images/Screenshot 2020-10-27 at 22.41.57.png)
 
 **Breakdown-schets(en):**
-(images/schets.jpg)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+
