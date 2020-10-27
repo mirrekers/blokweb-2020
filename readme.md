@@ -78,8 +78,8 @@ Niet aanwezig: Ziek
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
-![websitescreenshots](images/Screenshot 2020-10-27 at 22.41.45)
-![websitescreenshot](images/Screenshot 2020-10-27 at 22.41.57)
+![websitescreenshots](images/Screenshot 2020-10-27 at 22.41.45.png)
+![websitescreenshot](images/Screenshot 2020-10-27 at 22.41.57.png)
 
 **Breakdown-schets(en):**
 (images/schets.jpg)
