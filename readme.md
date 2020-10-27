@@ -1,9 +1,6 @@
 # Procesverslag
 **Auteur:** Mirre Kerssenberg
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
 
@@ -19,7 +16,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-Ik heb heel veel gepuzzeld met de html opbouw, ik moest er nog even inkomen weer na zolang niet te hebben gebruikt. Met behulp van de codepen opdachten had ik alvast een start gemaakt met hoe het daar aangewezen werd en later werd ik erop aangewezen hoe het moet. Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen. Verder was grid uitzoeken best lang, heb alles zoeen beetje getest tot ik kreeg wat ik zocht, zelfde geld voor flexbox. Uiteidelijk is het wel gelukt en snap ik het wel meer.-
 
 **Screenshot(s):**
 
@@ -48,7 +45,7 @@ Niet aanwezig: Ziek
 
 ### Stand van zaken
 
--Ik heb heel veel gepuzzeld met de html opbouw, ik moest er nog even inkomen weer na zolang niet te hebben gebruikt. Met behulp van de codepen opdachten had ik alvast een start gemaakt met hoe het daar aangewezen werd en later werd ik erop aangewezen hoe het moet. Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen. Verder was grid uitzoeken best lang, heb alles zoeen beetje getest tot ik kreeg wat ik zocht, zelfde geld voor flexbox. Uiteidelijk is het wel gelukt en snap ik het wel meer.-
+
 
 **Screenshot(s):**
 
