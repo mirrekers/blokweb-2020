@@ -308,7 +308,8 @@ text-transform: uppercase;
 font-family:'Open Sans', sans-serif;
 font-size: 18px;
 color:black;
-margin-top: 30px;
+margin-top: 30px 0 60px;
+
 }
 
 .form{
@@ -319,10 +320,33 @@ padding:3em 1.5em 3em 1.5em;
 
 }
  input{
+   margin-top: 20px;
   caret-color:white;
-
+  background-color:#003399;
+  color:white;
+  width:360px;
+  border-color: white;
+ box-shadow: none;
+ border-top-style: none;
+ border-right-style: none;
+ border-left-style: none;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
 }
-
+::placeholder{
+  color:white;
+}
+.form button{
+background-color:#003399;
+color:white;
+border-style: none;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 14px;
+}
+.form button:hover{
+  font-weight: 600;
+}
 .bestsellers{
   background-color:#F4E6DB;
   font-family:'Open Sans', sans-serif;
@@ -336,10 +360,12 @@ padding:3em 1.5em 3em 1.5em;
 }
 
 .style1{
-  margin:10px;
+ 
   font-family:'Open Sans', sans-serif;
   position: relative;
-  max-width:200px;
+  max-width:350px;
+  height: 400px;
+ text-align: center;
 }
 
 .flexbox-test{
@@ -364,13 +390,12 @@ padding:3em 1.5em 3em 1.5em;
   display: block;
 }
 .style1 h2{
-
-text-align: center;
-margin:0;
+  text-align: center;
+  margin:0;
 }
 .style1 p{
   text-align: center;
-margin:0;
+  margin:0;
 }
 .hoverbutton{
   background-color: white;
@@ -381,5 +406,10 @@ margin:0;
   border-width: thin;
   margin-top: 25px;
   letter-spacing: 1px;
+ 
+  display: none;
+}
 
+.style1:hover .hoverbutton {
+  display: inline-block;
 }
