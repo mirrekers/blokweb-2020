@@ -244,26 +244,28 @@ font-size:1.5em;
   background-color:rgb(73, 73, 73);
 }
 
-
+.feed-grid{
+  display: grid;
+  row-gap: 20px;
+ grid-template-columns: 350px;
+  justify-content: center;
+  margin: 30px 0 30px;
+}
 .feed{
-  display:grid;
-  grid-template-rows:repeat(autofill, minmax(200px,1fr)) ;
-  grid-gap:10px;
   background-color: #F9F9FB;
-
+  font-family:'Open Sans', sans-serif;
 }
 .feed > li{
   padding: 1.5rem;
   border-radius: 1rem;
 }
+
 .feed h3{
-  font-family:'Open Sans', sans-serif;
   font-weight: 600;
   margin-top:2em;
 
 }
 .feed p{
-  font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -277,7 +279,9 @@ height:100%;
 max-height:100%;
 object-fit: cover;
 display: inline-block; 
-overflow: hidden;    
+overflow: hidden;  
+ 
+
 }
 
 .feed img:hover{
@@ -296,6 +300,7 @@ overflow: hidden;
 .stores p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
+  margin-bottom: 30px;
   
 }
 .stores a{
@@ -303,6 +308,7 @@ text-transform: uppercase;
 font-family:'Open Sans', sans-serif;
 font-size: 18px;
 color:black;
+margin-top: 30px;
 }
 
 .form{
@@ -329,7 +335,15 @@ padding:3em 1.5em 3em 1.5em;
   margin-top: 3em;
 }
 
+.style1{
+  margin:10px;
+  font-family:'Open Sans', sans-serif;
+  position: relative;
+  max-width:200px;
+}
+
 .flexbox-test{
+  
   display:flex; 
   flex-wrap: wrap;
   margin:-10px;
@@ -345,15 +359,12 @@ padding:3em 1.5em 3em 1.5em;
   display:none;
 
 }
-.style1{
-  margin:10px;
-  font-family:'Open Sans', sans-serif;
-}
 
 .style1:hover .hoverimage{
   display: block;
 }
 .style1 h2{
+
 text-align: center;
 margin:0;
 }
@@ -361,13 +372,14 @@ margin:0;
   text-align: center;
 margin:0;
 }
-.style1 button{
+.hoverbutton{
   background-color: white;
   padding:5px 10px 5px 10px;
-  align-content: center;
-  margin: 25px;
   font-size:14px ;
   text-transform: uppercase;
   border-radius: 5px;
+  border-width: thin;
+  margin-top: 25px;
+  letter-spacing: 1px;
 
 }
