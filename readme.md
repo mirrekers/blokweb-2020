@@ -48,11 +48,11 @@ Niet aanwezig: Ziek
 
 ### Stand van zaken
 
--Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan-
+-Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen-
 
 **Screenshot(s):**
 
-![progressie](images/19B551BA-9AAC-45B9-908D-454893119317.JPG)
+![progressie](19B551BA-9AAC-45B9-908D-454893119317.JPG)
 ![stand van zaken tussendoor](0501B7B0-FABC-4E0C-BF8F-8D97E7AB5DA1.JPG)
 
 ### Agenda voor meeting
