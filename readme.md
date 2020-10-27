@@ -52,7 +52,7 @@ Niet aanwezig: Ziek
 
 **Screenshot(s):**
 
-![progressie](.images/19B551BA-9AAC-45B9-908D-454893119317.JPG)
+![progressie](images/19B551BA-9AAC-45B9-908D-454893119317.JPG)
 ![stand van zaken tussendoor](0501B7B0-FABC-4E0C-BF8F-8D97E7AB5DA1.JPG)
 
 ### Agenda voor meeting
