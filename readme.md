@@ -48,7 +48,7 @@ Niet aanwezig: Ziek
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan-
 
 **Screenshot(s):**
 
