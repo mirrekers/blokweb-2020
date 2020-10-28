@@ -24,11 +24,11 @@
 
 -screenshot(s) van je eindresultaat-
 
-![progressie](images/Screenshot 2020-10-28 at 14.34.20)
-![progressie](images/Screenshot 2020-10-28 at 14.34.33)
-![progressie](images/Screenshot 2020-10-28 at 14.35.03)
-![progressie](images/Screenshot 2020-10-28 at 14.35.20)
-![progressie](images/Screenshot 2020-10-28 at 14.34.45)
+![progressie](images/Screenshot 2020-10-28 at 14.34.20.png)
+![progressie](images/Screenshot 2020-10-28 at 14.34.33.png)
+![progressie](images/Screenshot 2020-10-28 at 14.35.03.png)
+![progressie](images/Screenshot 2020-10-28 at 14.35.20.png)
+![progressie](images/Screenshot 2020-10-28 at 14.34.45.png)
 
 
 ## Voortgang 3 (week 6)
