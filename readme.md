@@ -13,8 +13,7 @@
 7. https://stackoverflow.com/questions/33828542/how-to-make-the-input-text-wider
 8. https://www.w3schools.com/howto/howto_css_placeholder.asp
 9. https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
-10. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_class
-11. https://stackoverflow.com/questions/40891570/show-button-on-hover-only
+10. https://stackoverflow.com/questions/40891570/show-button-on-hover-only
 
 
 ## Eindgesprek (week 7/8)
