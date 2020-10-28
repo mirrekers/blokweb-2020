@@ -18,7 +18,7 @@
 
 ## Eindgesprek (week 7/8)
 
--Ik heb heel veel gepuzzeld met de html opbouw, ik moest er nog even inkomen weer na zolang niet te hebben gebruikt. Met behulp van de codepen opdachten had ik alvast een start gemaakt met hoe het daar aangewezen werd en later werd ik erop aangewezen hoe het moet. Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen. Verder was grid uitzoeken best lang, heb alles zoeen beetje getest tot ik kreeg wat ik zocht, zelfde geld voor flexbox. Uiteidelijk is het wel gelukt en snap ik het wel meer.-
+-Ik heb heel veel gepuzzeld met de html opbouw, ik moest er nog even inkomen weer na zolang niet te hebben gebruikt. Met behulp van de codepen opdachten had ik alvast een start gemaakt met hoe het daar aangewezen werd en later werd ik erop aangewezen hoe het moet. Ik had vooral veel problemen met de navigatie. heb vaker mn code gebroken denkende dat ik de navigatie goed had. Uiteindelijk had ik hem wel bovenaan gekregen. Verder was grid uitzoeken best lang, heb alles zoeen beetje getest tot ik kreeg wat ik zocht, zelfde geld voor flexbox. Uiteidelijk is het wel gelukt en snap ik het wel meer. uiteindelijk is het enige waar ik niet trots op ben de navigatie, maar er was tijdnood en ik wou wel de basis erin hebben dus dat ging voor.-
 
 **Screenshot(s):**
 
@@ -55,7 +55,7 @@ Niet aanwezig: Ziek
 
 ### Stand van zaken
 Het is moeilijk om te beginnen, ik ben veel later begonnen met werklen eraan, maar het gaat nu best smooth.
-gewoon heel veel terug gaan op wat al gemaakt is met een betere oplossing
+gewoon heel veel terug gaan op wat al gemaakt is met een betere oplossingen.
 
 
 **Screenshot(s):**
