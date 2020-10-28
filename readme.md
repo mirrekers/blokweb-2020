@@ -24,9 +24,20 @@
 
 -screenshot(s) van je eindresultaat-
 
+![progressie](images/Screenshot 2020-10-28 at 14.34.20)
+![progressie](images/Screenshot 2020-10-28 at 14.34.33)
+![progressie](images/Screenshot 2020-10-28 at 14.35.03)
+![progressie](images/Screenshot 2020-10-28 at 14.35.20)
+![progressie](images/Screenshot 2020-10-28 at 14.34.45)
 
 
 ## Voortgang 3 (week 6)
+- probeer flexbox inplaats van grid bij de tweede pagina
+- en grid bij de feed
+- zitten stukjes onnodige code tussen
+- comments plaatsen
+
+## Voortgang 2 (week 5)
 
 - Bij linkjes als die nergens naar toegaat #
 Html chaotisch - HTML FORMATTER
@@ -38,9 +49,6 @@ Html chaotisch - HTML FORMATTER
 - font size in em 
 - Onnodige li's en ul's weghalen
 - sections gebruiken
-
-## Voortgang 2 (week 5)
-
 
 ## Voortgang 1 (week 3)
 Niet aanwezig: Ziek
@@ -79,6 +87,9 @@ Niet aanwezig: Ziek
 
 ![websitescreenshots](images/Screenshot 2020-10-27 at 22.41.45.png)
 ![websitescreenshot](images/Screenshot 2020-10-27 at 22.41.57.png)
+![websitescreenshot](images/Screenshot 2020-10-27 at 22.42.14.png)
+![websitescreenshot](images/Screenshot 2020-10-27 at 22.42.48.png)
+![websitescreenshot](images/Screenshot 2020-10-27 at 22.43.03.png)
 
 **Breakdown-schets(en):**
 

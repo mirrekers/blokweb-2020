@@ -351,6 +351,8 @@ text-transform: uppercase;
 font-weight: 300;
 font-size: 0.875em;
 }
+x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
+ het lijkt in style niet op eertse gezicht op een knop, */
 .form button:hover{
   font-weight: 600;
 }
