@@ -24,11 +24,11 @@
 
 -screenshot(s) van je eindresultaat-
 
-![progressie](images/Screenshot 2020-10-28 at 14.34.20.png)
-![progressie](images/Screenshot 2020-10-28 at 14.34.33.png)
-![progressie](images/Screenshot 2020-10-28 at 14.35.03.png)
-![progressie](images/Screenshot 2020-10-28 at 14.35.20.png)
-![progressie](images/Screenshot 2020-10-28 at 14.34.45.png)
+![hoofdpagina1](images/Screenshot 2020-10-28 at 14.34.20.png)
+![hoofdpagina2](images/Screenshot 2020-10-28 at 14.34.33.png)
+![detailpagina1](images/Screenshot 2020-10-28 at 14.35.03.png)
+![detailpagina2](images/Screenshot 2020-10-28 at 14.35.20.png)
+![form](images/Screenshot 2020-10-28 at 14.34.45.png)
 
 
 ## Voortgang 3 (week 6)
@@ -54,21 +54,14 @@ Html chaotisch - HTML FORMATTER
 Niet aanwezig: Ziek
 
 ### Stand van zaken
-
+Het is moeilijk om te beginnen, ik ben veel later begonnen met werklen eraan, maar het gaat nu best smooth.
+gewoon heel veel terug gaan op wat al gemaakt is met een betere oplossing
 
 
 **Screenshot(s):**
 
 ![progressie](19B551BA-9AAC-45B9-908D-454893119317.JPG)
 ![stand van zaken tussendoor](0501B7B0-FABC-4E0C-BF8F-8D97E7AB5DA1.JPG)
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
 
 
 
@@ -92,4 +85,4 @@ Niet aanwezig: Ziek
 ![websitescreenshot](images/Screenshot 2020-10-27 at 22.43.03.png)
 
 **Breakdown-schets(en):**
-
+![schets-website](images/schets.jpg)
