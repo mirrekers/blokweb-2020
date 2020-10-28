@@ -35,7 +35,6 @@ nav li{
   margin:0; padding:0;
   flex-flow:column;
   flex-grow:3;
-  
   justify-content: flex-end;
  
 }
@@ -57,6 +56,7 @@ nav img{
   font-size: 40px;
 }
 
+/* Opmaak en positionering van van de linkje met de opmaak van knoppen */
 .inleiding a{
   
     display:inline-block;
@@ -72,38 +72,35 @@ nav img{
      
   
 }
-
+/*kleur verandering bij het hoveren van de link-knopjes */
 .inleiding a:hover{
   background-color:rgb(73, 73, 73);
 }
 
-.shopnow{
-display:flex;
-flex-direction:column;
-justify-content:center;
-}
-
+/* verandering aan standaard linkje zodat het lijkt op een knop*/
 .shopnow a{
 text-transform:uppercase;
 font-family:'Open Sans', sans-serif;
-margin:1em;
 color:black;
 font-size: 1em;
 }
 
+/*Heading*/
 .heading{
   font-family:'Open Sans', sans-serif;
   text-align: center;
   font-size: 2.25em;
   font-weight: 300;
 }
-
+/* Voor je de positie van je element binnen de foto kan 
+krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
 .justglasses{
 position:relative;
 margin:3em 2em 4em 2em;
 
 }
-
+/* positioning door transform te gebruiken met 50% voor als je niet 
+weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
 .justglasses h2{
   position:absolute;
   left:50%; top:50%;
@@ -114,11 +111,14 @@ margin:3em 2em 4em 2em;
   font-size: 3.125em;
   font-weight: 400;
 }
+/* Voor je de positie van je element binnen de foto kan 
+krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
 .justsunglasses{
   position:relative;
  margin:3em 2em 4em 2em;
 }
-
+/* positioning door transform te gebruiken met 50% voor als je niet 
+weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
 .justsunglasses h2{
   position:absolute;
   left:50%; top:50%;
@@ -129,11 +129,8 @@ margin:3em 2em 4em 2em;
   font-size: 3.125em;
   font-weight: 400;
 }
-.bluelight{
-  margin:3em 0 3em;
-  
-}
 
+/* verandering aan standaard linkje zodat het lijkt op een knop */
 .bluelight a{
 
   padding: 15px 50px;
@@ -147,14 +144,12 @@ margin:3em 2em 4em 2em;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
 }
+/*kleur verandering bij het hoveren van de link-knopjes */
 .bluelight a:hover{
   background-color:rgb(73, 73, 73);
 }
-.bluelight img{
-  width:100%;
- object-fit: cover;
-  display: block;
-}
+
+
 .bluelight h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
@@ -362,9 +357,10 @@ font-size: 0.875em;
   height:8em;
   margin-top: 3em;
 }
-
+/*hier doen we basis styling zoals font en size aanpassen,
+ maar we maken ook relative zodat we de foto die verschijn als je
+  hovered precies in het midden zal zijn van de al staande foto */
 .style1{
- 
   font-family:'Open Sans', sans-serif;
   position: relative;
   max-width:350px;
@@ -372,16 +368,25 @@ font-size: 0.875em;
  text-align: center;
 }
 
+/* eerst heb ik de container flex gemaakt door display:flex te gebruiken,
+verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden ze normaal buiten de container komen te staan
+dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
+ zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
 .flexbox-test{
   
   display:flex; 
   flex-wrap: wrap;
   margin:-10px;
 } 
+
+/* De * wordt gebruikt om alle child elementen te 
+selecteren en de styling die komt te staan op allemaal toe te passen. 
+*/
 .flexbox-test>*{
   flex: 1 1 160px;
   margin: 10px;
 }
+/* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
  .style1 .hoverimage{
   position: absolute;
   left:0px;
@@ -393,14 +398,18 @@ font-size: 0.875em;
 .style1:hover .hoverimage{
   display: block;
 }
+
 .style1 h2{
   text-align: center;
   margin:0;
 }
+
 .style1 p{
   text-align: center;
   margin:0;
 }
+/* samen met de styling van deze button staat er hier ook in dat hij niet gezien wordt en hieronder 
+komt dan de code voor dat je hem ziet als je hover over de style1 */
 .hoverbutton{
   background-color: white;
   padding:5px 10px 5px 10px;
