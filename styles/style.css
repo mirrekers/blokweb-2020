@@ -393,7 +393,7 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
 .flexbox-test>*{
-  flex: 1 1 160px;
+  flex: 1 160px;
   margin: 10px;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
