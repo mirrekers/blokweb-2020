@@ -285,7 +285,8 @@ overflow: hidden;
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
 .feed img:hover{
   transform:scale(1.1);
-
+  display: inline-block;
+  overflow: hidden;
 }
 .stores{
   margin: 4em 0 4em 0;
