@@ -280,8 +280,21 @@ height:100%;
 object-fit: contain;
 
 }
+.feed-grid{
+  display: inline-block;
+    overflow: hidden;
+}
+.feed-grid img{
+  -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    
+    vertical-align: middle;
+}
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
-.feed img:hover{
+.feed-grid img:hover{
   transform:scale(1.1);
 
 }
