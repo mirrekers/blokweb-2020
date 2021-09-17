@@ -272,7 +272,7 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 }
 /* Bij de feed is er een zoom als je hovered en ik wou dat ook erin verwerken. 
 Dus heb ik een transform gebruikt met een ease zodat de hover smoothly gaat*/
-.feed-grid img{
+.feed img{
 transition: transform 2s;
 transition-timing-function: ease-out;
 width:100%;
@@ -280,9 +280,9 @@ height:100%;
 object-fit: contain;
 
 }
-.feed-grid img{
+.feed-grid{
   display: inline-block;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
