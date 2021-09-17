@@ -20,8 +20,6 @@ img {
 list-style none te doen*/
 ul {
 list-style:none;
-margin:0;
-padding:0;
 }
 /* de navigatie flex zetten zodat de list in een row zal staan. 
 En de hoogte erovan veranderen zodat ze allemaal even groot zijn*/
