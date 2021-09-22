@@ -4,9 +4,19 @@
 }
 
 
-
-@media (min-width:38em) { body { padding:3vw; } }
-@media (min-width:57em) { body { padding:2.5vw; } }
+/*Breaking point 1*/
+@media (min-width:38em) 
+{ body { 
+  padding:3vw; } 
+  .style1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*Breaking point 2*/
+@media (min-width:57em)
+ { body { 
+   padding:2.5vw; } }
 
 
 
@@ -438,3 +448,4 @@ komt dan de code voor dat je hem ziet als je hover over de style1 */
 .style1:hover .hoverbutton {
   display: inline-block;
 }
+
