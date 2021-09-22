@@ -7,8 +7,7 @@
 /*Breaking point 1*/
 @media (min-width:38em) 
 { body { 
-  padding:3vw; } 
-  }
+  padding:3vw; }
 }
 /*Breaking point 2*/
 @media (min-width:57em)
