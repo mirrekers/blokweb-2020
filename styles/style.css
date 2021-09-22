@@ -253,7 +253,6 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 .feed{
   background-color: #F9F9FB;
   font-family:'Open Sans', sans-serif;
-
 }
 .feed > li{
   padding: 1.5rem;
@@ -276,8 +275,8 @@ Dus heb ik een transform gebruikt met een ease zodat de hover smoothly gaat*/
 .feed img{
 transition: transform 1s;
 transition-timing-function: ease-out;
-width:300px;
-height:300px;
+width:18.75em;
+height:18.75em;
 max-height:100%;
 object-fit: cover;
 
@@ -286,8 +285,10 @@ object-fit: cover;
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
 .feed img:hover{
   transform:scale(1.1);
-  
-
+  display: block;
+  overflow: hidden;
+  width:18.75em;
+  height:18.75em;
 }
 .stores{
   margin: 4em 0 4em 0;
