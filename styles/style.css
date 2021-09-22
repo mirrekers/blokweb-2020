@@ -8,9 +8,6 @@
 @media (min-width:38em) 
 { body { 
   padding:3vw; } 
-  .style1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 }
 /*Breaking point 2*/
