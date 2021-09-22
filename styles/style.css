@@ -285,8 +285,10 @@ object-fit: cover;
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
 .feed img:hover{
   transform:scale(1.1);
-  display: inline-block;
+  display: block;
   overflow: hidden;
+  width:300px;
+  height:300px;
 
 }
 .stores{
