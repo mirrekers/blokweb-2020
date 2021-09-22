@@ -394,7 +394,7 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
 /* De * wordt gebruikt om alle child elementen te 
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
-.flexbox-test>*{
+.style1>*{
   flex: 1 160px;
   margin: 10px;
 }
