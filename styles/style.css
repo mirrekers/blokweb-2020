@@ -245,8 +245,8 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 
 .feed-grid{
   display: grid;
-  row-gap: 20px;
-  grid-template-columns: 350px;
+  row-gap: 1.25em;
+  grid-template-columns: 21.875em;
   justify-content: center;
   margin: 1.875em 0 1.875em;
 }
