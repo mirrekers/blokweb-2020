@@ -249,10 +249,7 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
   grid-template-columns: 21.875em;
   justify-content: center;
   margin: 1.875em 0 1.875em;
-  display: block;
-  overflow: hidden;
-  width:18.75em;
-  height:18.75em;
+ 
 }
 .feed{
   background-color: #F9F9FB;
@@ -261,7 +258,10 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 .feed > li{
   padding: 1.5rem;
   border-radius: 1rem;
- 
+  display: block;
+  overflow: hidden;
+  width:18.75em;
+  height:18.75em;
 }
 
 .feed h3{
