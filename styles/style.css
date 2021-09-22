@@ -249,10 +249,13 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
   grid-template-columns: 350px;
   justify-content: center;
   margin: 30px 0 30px;
+  display: block;
+  overflow: hidden;
 }
 .feed{
   background-color: #F9F9FB;
   font-family:'Open Sans', sans-serif;
+
 }
 .feed > li{
   padding: 1.5rem;
@@ -285,10 +288,7 @@ object-fit: cover;
 /* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
 .feed img:hover{
   transform:scale(1.1);
-  display: block;
-  overflow: hidden;
-  width:300px;
-  height:300px;
+  
 
 }
 .stores{
