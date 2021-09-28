@@ -298,6 +298,10 @@ object-fit: cover;
   transform:scale(1.1);
   
 }
+.feed li{
+  display:inline-block;
+  max-width: 100%;
+}
 .stores{
   margin: 4em 0 4em 0;
   background-color: #E6E6E6;
