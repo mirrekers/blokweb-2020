@@ -266,6 +266,7 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
   border-radius: 1rem;
   display: block;
   overflow: hidden;
+  max-width: 100%;
   width:18.75em;
   height:18.75em;
 }
@@ -298,10 +299,7 @@ object-fit: cover;
   transform:scale(1.1);
   
 }
-.feed li{
-  display:inline-block;
-  max-width: 100%;
-}
+
 .stores{
   margin: 4em 0 4em 0;
   background-color: #E6E6E6;
