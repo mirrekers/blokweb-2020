@@ -3,7 +3,6 @@
   box-sizing:border-box;  
 }
 
-
 /*Breaking point 1*/
 @media (min-width:38em) 
 { body { 
@@ -14,10 +13,7 @@
  { body { 
    padding:2.5vw; } }
 
-
-
-
-img {
+   img {
   display: block;
   max-width: 100%;
 }
@@ -46,6 +42,7 @@ nav li{
 nav img{
   width:2em;
   height:2em;
+  min-width: 100%;
 }
 
 .inleiding{
