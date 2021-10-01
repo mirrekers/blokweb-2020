@@ -44,8 +44,9 @@ nav li{
   height:2em;
   min-width: 100%;
   max-width: 100%;
+  display: block;
 }
-img{
+.navelements {
   width: 1.5em;
   height: 1.5em;
   max-width: 100%;
