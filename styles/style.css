@@ -46,7 +46,7 @@ nav li{
   max-width: 100%;
   display: block;
 }
-.navelements {
+nav li{
   width: 1.5em;
   height: 1.5em;
   max-width: 100%;
