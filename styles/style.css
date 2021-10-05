@@ -50,7 +50,7 @@ nav ul{
   width: 2em;
   height: 2em;
   max-width: 100%;
-  min-width: 100%;
+  min-height: 100%;
 }
 .inleiding{
   text-align: center;
