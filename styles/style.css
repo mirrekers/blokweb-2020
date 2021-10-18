@@ -304,6 +304,7 @@ object-fit: cover;
 .feed img:hover{
   transform:scale(1.1);
   display:block;
+  overflow: hidden;
   max-width: 10em;
   max-height: 10em;
   
