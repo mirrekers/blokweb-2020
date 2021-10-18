@@ -401,7 +401,7 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
 .flexbox-test{
   
   display:grid; 
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 10em;
   margin:-10px;
 } 
 
