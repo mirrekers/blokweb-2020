@@ -400,8 +400,8 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
  zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
 .flexbox-test{
   
-  display:flex; 
-  flex-wrap: wrap;
+  display:grid; 
+  grid-template-columns:1fr 1fr;
   margin:-10px;
 } 
 
@@ -409,8 +409,8 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
 .style1>*{
-  flex: 1 160px;
-  margin: 10px;
+  justify-content:flex-end;
+    width:auto;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
  .style1 .hoverimage{
