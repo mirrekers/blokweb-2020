@@ -305,9 +305,6 @@ object-fit: cover;
   transform:scale(1.1);
   display:block;
   overflow: hidden;
-  max-width: 10em;
-  max-height: 10em;
-  
 }
 
 .stores{
@@ -402,16 +399,12 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
 verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden ze normaal buiten de container komen te staan
 dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
  zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
-.flexbox-test{
-  display:grid; 
-  grid-template-columns:1fr 1fr ;
-  margin:-10px;
-} 
+
 
 /* De * wordt gebruikt om alle child elementen te 
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
-.style1>*{
+.style1{
   display:grid; 
   grid-template-columns:1fr 1fr ;
 }
