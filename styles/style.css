@@ -409,8 +409,8 @@ selecteren en de styling die komt te staan op allemaal toe te passen.
 */
 .style1>*{
   flex: 1 160px;
-  margin: 10px;
-  justify-content:space-around ;
+  margin: -10px;
+  justify-content:flex-end;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
  .style1 .hoverimage{
