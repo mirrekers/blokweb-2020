@@ -412,8 +412,8 @@ dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
 .style1>*{
-  justify-content:flex-end;
-  width:auto;
+  display:grid; 
+  grid-template-columns:1fr 1fr ;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
  .style1 .hoverimage{
