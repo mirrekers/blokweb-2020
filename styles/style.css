@@ -399,9 +399,8 @@ verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden
 dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
  zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
 .flexbox-test{
-  
   display:grid; 
-  grid-template-columns:1fr 1fr 10em;
+  grid-template-columns:1fr 1fr ;
   margin:-10px;
 } 
 
@@ -410,7 +409,7 @@ selecteren en de styling die komt te staan op allemaal toe te passen.
 */
 .style1>*{
   justify-content:flex-end;
-    width:auto;
+  width:auto;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
  .style1 .hoverimage{
