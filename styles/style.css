@@ -94,13 +94,7 @@ color:black;
 font-size: 1em;
 }
 
-/*Heading*/
-.heading{
-  font-family:'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 2.25em;
-  font-weight: 300;
-}
+
 /* Voor je de positie van je element binnen de foto kan 
 krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
 .justglasses{
@@ -120,10 +114,11 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   font-size: 3.125em;
   font-weight: 400;
 }
-.heading{
+.heading h3{
   font-family:'Open Sans', sans-serif;
-  color:black; 
-  font-size: 1em; 
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
 }
 /* Voor je de positie van je element binnen de foto kan 
 krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
