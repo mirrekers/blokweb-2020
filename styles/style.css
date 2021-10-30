@@ -122,6 +122,13 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   font-weight: 400;
 }
 
+.justsunglasses h3{
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  color:black;
+  font-size: 1em;   
+  
+}
 /* verandering aan standaard linkje zodat het lijkt op een knop */
 .bluelight a{
 
