@@ -122,7 +122,7 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
 }
 .justglasses h3{
   font-family:'Open Sans', sans-serif;
-  color:black;
+  color:black; 
   font-size: 1em; 
 }
 /* Voor je de positie van je element binnen de foto kan 
@@ -376,6 +376,12 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
  het lijkt in style niet op eertse gezicht op een knop, */
 .form button:hover{
   font-weight: 600;
+}
+.signup-animation-button{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 .bestsellers{
   background-color:#F4E6DB;
