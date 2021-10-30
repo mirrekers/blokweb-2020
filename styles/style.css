@@ -101,8 +101,30 @@ font-size: 1em;
   font-size: 2.25em;
   font-weight: 300;
 }
+/* Voor je de positie van je element binnen de foto kan 
+krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
+.justglasses{
+position:relative;
+margin:3em 2em 4em 2em;
 
-
+}
+/* positioning door transform te gebruiken met 50% voor als je niet 
+weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
+.justglasses h2{
+  position:absolute;
+  left:50%; top:50%;
+  transform:translate(-50%, -50%);
+  margin:0; padding: 0.5em 1em;
+  font-family:'Open Sans', sans-serif;
+  color:white;
+  font-size: 3.125em;
+  font-weight: 400;
+}
+.justglasses h3{
+  font-family:'Open Sans', sans-serif;
+  color:black;
+  font-size: 1em; 
+}
 /* Voor je de positie van je element binnen de foto kan 
 krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
 .justsunglasses{
@@ -122,13 +144,6 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   font-weight: 400;
 }
 
-.justsunglasses h3{
-  text-align: center;
-  font-family:'Open Sans', sans-serif;
-  color:black;
-  font-size: 1em;   
-  
-}
 /* verandering aan standaard linkje zodat het lijkt op een knop */
 .bluelight a{
 
