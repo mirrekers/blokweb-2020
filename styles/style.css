@@ -120,7 +120,7 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   font-size: 3.125em;
   font-weight: 400;
 }
-.justglasses h3{
+.heading{
   font-family:'Open Sans', sans-serif;
   color:black; 
   font-size: 1em; 
@@ -383,6 +383,14 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
   display: grid;
   place-items: center;
 }
+.signup-animation-button button{
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+
 .bestsellers{
   background-color:#F4E6DB;
   font-family:'Open Sans', sans-serif;
