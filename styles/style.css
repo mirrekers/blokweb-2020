@@ -377,7 +377,7 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
     padding: 0;
     box-sizing: border-box;
   }
-}
+
 .signup-animation-button{
   width: 100%;
   display: grid;
