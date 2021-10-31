@@ -372,6 +372,12 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
 .form button:hover{
   font-weight: 600;
 }
+* .signup-animation-button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
 .signup-animation-button{
   width: 100%;
   display: grid;
@@ -382,6 +388,7 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
   cursor: pointer;
   transition: 300ms;
 }
+
 .signup-icon{
   transition: 300ms;
     margin-left: 15px;
