@@ -1,6 +1,6 @@
 const button = document.getElementById('button')
-const plane = document.querySelector('#button > ion-icon')
-const message = document.getElementById('signup-text')
+const plane = document.querySelector('#button >ion-icon')
+const message = document.getElementsByClassName('signup-text')
 
 
 
