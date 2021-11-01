@@ -460,7 +460,7 @@ verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden
 dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. 
 Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
 zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
-.box{
+.style1{
   display:flex; 
   flex-wrap: wrap;
   margin:-10px;
@@ -469,7 +469,7 @@ zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
 /* De * wordt gebruikt om alle child elementen te 
 selecteren en de styling die komt te staan op allemaal toe te passen. 
 */
-.box>*{
+.style1>*{
   flex: 1 160px;
   margin: 10px;
 }
@@ -513,7 +513,20 @@ komt dan de code voor dat je hem ziet als je hover over de style1 */
 .style1:hover .hoverbutton {
   display: inline-block;
 }
+/* Om semantisch correcte HTML te hebben moet je articles een H1-5 geven. 
+Maar ik had voor een paar van mij gebruikte article elementen geen header nodig. Om mijn site accesible te houden voor mensen 
+met screenreaders ook is het handig om 
+geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ */
 
+.visually-hidden:not(:focus):not(:active){
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 /* animatie/ microinteractie */
 #gradient
