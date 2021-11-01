@@ -104,7 +104,7 @@ margin:3em 2em 4em 2em;
 }
 /* positioning door transform te gebruiken met 50% voor als je niet 
 weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
-.justglasses h2{
+.layover{
   position:absolute;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
@@ -128,7 +128,7 @@ krijgen moet je eerst op de parent op position relative zetten zodat the child v
 }
 /* positioning door transform te gebruiken met 50% voor als je niet 
 weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
-.layover{
+.justsunglasses h2{
   position:absolute;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
