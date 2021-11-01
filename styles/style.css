@@ -282,13 +282,11 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 .feed{
   background-color: #F9F9FB;
   font-family:'Open Sans', sans-serif;
+  margin-bottom:-3.9em
 }
 .feed > li{
   padding: 1.5rem;
   border-radius: 1rem;
-  display: block;
-  overflow: hidden;
-  max-width: 100%;
   width:18.75em;
   height:18.75em;
 }
@@ -325,11 +323,12 @@ object-fit: cover;
 .stores{
   margin: 4em 0 4em 0;
   background-color: #E6E6E6;
-  margin:3.5em 0em 3.5em 0em;
+  margin-bottom:-0.1em;
 }
 .stores h3{
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
+  padding-top:10px;
 }
 .stores p{
   font-family:'Open Sans', sans-serif;
@@ -354,7 +353,7 @@ object-fit: cover;
   text-decoration: none;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
- 
+ margin-bottom:20px;
  
 }
 .stores a:hover{
