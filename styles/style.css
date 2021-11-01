@@ -368,7 +368,7 @@ font-weight: 300;
 font-size: 0.875em;
 
 }
-x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
+/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
  het lijkt in style niet op eertse gezicht op een knop, */
 .form button:hover{
   font-weight: 600;
@@ -411,7 +411,7 @@ selecteren en de styling die komt te staan op allemaal toe te passen.
 */
 .style1>*{
   flex: 1 160px;
-  margin: -10px;
+  margin: 10px;
   justify-content:flex-start;
 }
 /* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
