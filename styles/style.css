@@ -125,8 +125,8 @@ margin:3em 2em 4em 2em;
 weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
 .layover{
   position:absolute;
-  left:50%; top:50%;
-  transform:translate(-50%, -50%);
+  left:40%; top:60%;
+  transform:translate(-40%, -60%);
   margin:0; padding: 0.5em 1em;
   font-family:'Open Sans', sans-serif;
   color:white;
@@ -230,11 +230,13 @@ margin-left:0.7em;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  margin-left:1em;
 }
 
 .tryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
+  margin-left:0.6em;
 }
 
 .vrtryon{
@@ -244,12 +246,14 @@ margin-left:0.7em;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  margin-left:1em;
  
 }
 .vrtryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-  
+  margin-left:0.6em;
+
 }
 .recycle{
   margin: 5em 0 5em 0;
@@ -258,10 +262,12 @@ margin-left:0.7em;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  margin-left:1em;
 }
 .recycle h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
+  margin-left:0.6em;
 }
 /* Linkje dat opgemaakt is als een button */
 .recycle a{
@@ -274,7 +280,7 @@ margin-left:0.7em;
   text-transform: uppercase;
   text-decoration: none;
   font-family:'Open Sans', sans-serif;
-  margin-top:1em;
+  margin-left:1em;
 }
 .recycle a:hover{
   background-color:rgb(73, 73, 73);
@@ -308,6 +314,7 @@ waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette 
 .feed h3{
   font-weight: 600;
   padding-top:50px;
+  margin-left:1em;
 
 }
 .feed p{
@@ -343,11 +350,12 @@ object-fit: cover;
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
   padding-top:50px;
+  margin-left:1em;
 }
 .stores p{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
+  padding:1em;
   
 }
 
@@ -368,7 +376,7 @@ object-fit: cover;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
  margin-bottom:50px;
- 
+ margin-left:1em;
 }
 .stores a:hover{
   background-color:black;
