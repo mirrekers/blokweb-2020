@@ -23,6 +23,7 @@ var gradientSpeed = 0.002;
 function updateGradient()
   {
     
+    if ( $===undefined ) return;
     
   var c0_0 = colors[colorIndices[0]];
   var c0_1 = colors[colorIndices[1]];
