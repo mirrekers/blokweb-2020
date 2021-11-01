@@ -20,7 +20,7 @@ var gradientSpeed = 0.002;
 
 
 
-setInterval(updateGradient,10);
+
 
 
 document.getElementById("button").addEventListener("click", function() {
@@ -64,3 +64,5 @@ document.getElementById("button").addEventListener("click", function() {
     }
   }
 });
+
+setInterval(updateGradient,10);
