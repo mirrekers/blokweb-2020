@@ -20,11 +20,7 @@ var gradientSpeed = 0.002;
 
 
 
-
-
-
-document.getElementById("button").addEventListener("click", function() {
-  function updateGradient()
+function updateGradient()
   {
     
     
@@ -62,6 +58,10 @@ document.getElementById("button").addEventListener("click", function() {
       
     }
   }
+
+
+document.getElementById("button").addEventListener("click", function(updateGradient) {
+  
 });
 
 setInterval(updateGradient,10);
