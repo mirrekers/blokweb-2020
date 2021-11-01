@@ -88,10 +88,16 @@ nav ul{
 
 /* verandering aan standaard linkje zodat het lijkt op een knop*/
 .shopnow a{
-text-transform:uppercase;
-font-family:'Open Sans', sans-serif;
-color:black;
-font-size: 1em;
+  display:inline-block;
+  padding: 16px 50px;
+  margin:5px;
+  border-radius:75px;
+  color:white;
+  background-color: black;
+  font-size:1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 
