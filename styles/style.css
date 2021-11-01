@@ -94,10 +94,11 @@ nav ul{
   border-radius:75px;
   color:white;
   background-color: black;
-  font-size:1em;
+  font-size:0.75em;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-top:0.50em;
   font-family:'Open Sans', sans-serif;
 }
 .shopnow a:hover{
