@@ -59,6 +59,6 @@ function updateGradient()
     }
   }
 
-
- document.getElementById("button").addEventListener("click",setInterval(updateGradient,10)) 
+  setInterval(updateGradient,10);
+ document.getElementById("button").addEventListener("click",updateGradient);
 
