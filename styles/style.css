@@ -92,17 +92,23 @@ nav ul{
   padding: 16px 50px;
   margin:5px;
   border-radius:75px;
-  color:white;
-  background-color: black;
+  border-style:solid;
+  border-width:0.1em;
+  border-color:black;
+  color:black;
+  background-color: white;
   font-size:0.75em;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-top:0.50em;
   font-family:'Open Sans', sans-serif;
+  margin-top:1em;
+ 
+ 
 }
 .shopnow a:hover{
-  background-color:rgb(73, 73, 73);
+  background-color:black;
+  color:white;
 }
 
 /* Voor je de positie van je element binnen de foto kan 
