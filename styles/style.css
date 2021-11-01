@@ -81,7 +81,7 @@ nav ul{
      letter-spacing: 2px;
      text-transform: uppercase;
      text-decoration: none;
-     
+    
   
 }
 /*kleur verandering bij het hoveren van de link-knopjes */
@@ -106,7 +106,7 @@ nav ul{
   text-decoration: none;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
- 
+ margin-left:1em;
  
 }
 .shopnow a:hover{
@@ -171,6 +171,7 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   text-decoration: none;
   font-family:'Open Sans', sans-serif;
   margin-top:1em;
+  margin-left:1em;
 }
 /*kleur verandering bij het hoveren van de link-knopjes */
 .bluelight a:hover{
@@ -182,11 +183,13 @@ weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   font-size:2.25em;
+  margin-left:0.5em;
 }
 
 .bluelight p{
   font-family:'Open Sans', sans-serif;
   text-transform: uppercase;
+  margin-left:1.3em;
 }
 
 
@@ -200,19 +203,24 @@ display: block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin: 4em 0 4em 0;
+
 }
 
 .eyetest h2{
   font-size:36px;
    text-align: center;
-  font-weight:300;
+   font-weight:300;
+
+
 }
 .eyetest p{
   text-transform: uppercase;
+  margin-left:1.1em;
 }
 .eyetest h3{
 font-weight: 300;
 font-size:1.5em;
+margin-left:0.7em;
 }
 
 .tryon{
@@ -236,10 +244,12 @@ font-size:1.5em;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+ 
 }
 .vrtryon h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
+  
 }
 .recycle{
   margin: 5em 0 5em 0;
