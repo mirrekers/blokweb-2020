@@ -98,8 +98,11 @@ nav ul{
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  font-family:'Open Sans', sans-serif;
 }
-
+.shopnow a:hover{
+  background-color:rgb(73, 73, 73);
+}
 
 /* Voor je de positie van je element binnen de foto kan 
 krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
