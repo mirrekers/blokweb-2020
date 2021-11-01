@@ -26,8 +26,7 @@ var gradientSpeed = 0.002;
 document.getElementById("button").addEventListener("click", function() {
   function updateGradient()
   {
-    document.getElementById("button").textContent="Sent!";
-    if ( $===undefined ) return;
+    
     
   var c0_0 = colors[colorIndices[0]];
   var c0_1 = colors[colorIndices[1]];
