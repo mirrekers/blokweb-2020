@@ -372,7 +372,7 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
 .form button:hover{
   font-weight: 600;
 }
-* .signup-animation-button{
+.signup-animation-button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -389,14 +389,14 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
   transition: 300ms;
 }
 
-.signup-icon{
+i{
   transition: 300ms;
     margin-left: 15px;
 }
-button.signup-icon{
+button.send i{
   animation: send .2s infinite;
 }
-button.signup-icon{
+button.send i{
   animation: sent 1s forwards;
 }
 @keyframes send {

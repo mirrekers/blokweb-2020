@@ -6,7 +6,6 @@ const message = document.getElementsByClassName('signup-text')
 
 function start() {
   plane.style.transform = 'rotate(-90deg)';
-  button.style.backgroundColor = '#ffc85c';
   message.innerText = 'Sending';
   
   setTimeout(() => {
@@ -19,7 +18,6 @@ function send() {
    setTimeout(() => { 
      button.classList.remove('send') 
      message.innerText = 'Sent'
-     button.style.backgroundColor = '#61b15a';
      button.classList.add('sent')
 
      sent()
