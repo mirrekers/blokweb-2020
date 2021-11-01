@@ -26,7 +26,7 @@ setInterval(updateGradient,10);
 document.getElementById("button").addEventListener("click", function() {
   function updateGradient()
   {
-    
+    document.getElementById("button").textContent="Sent!";
     if ( $===undefined ) return;
     
   var c0_0 = colors[colorIndices[0]];
