@@ -377,7 +377,7 @@ voor de rest is het gewoon styling*/
   caret-color:white;
   background-color:#003399;
   color:white;
-  width:360px;
+  width:200px;
   border-color: white;
  box-shadow: none;
  border-top-style: none;
@@ -394,10 +394,16 @@ voor de rest is het gewoon styling*/
 .form button{
 background-color:#003399;
 color:white;
-border-style: none;
+border-radius:20px;
+border-color:white;
+padding:5px 20px;
 text-transform: uppercase;
 font-weight: 300;
 font-size: 0.875em;
+font-family: 'Open Sans', sans-serif;
+font-size:0.75em;
+float:right;
+margin-top:-30px;
 
 }
 /*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
@@ -425,7 +431,7 @@ font-size: 0.875em;
   position: relative;
   max-width:350px;
   height: 400px;
- text-align: center;
+  text-align: center;
 }
 
 /* eerst heb ik de container flex gemaakt door display:flex te gebruiken,
