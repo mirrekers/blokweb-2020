@@ -372,51 +372,7 @@ x/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
 .form button:hover{
   font-weight: 600;
 }
-.signup-animation-button *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-.signup-animation-button{
-  width: 100%;
-  height: 1em;
-  display: grid;
-
-}
-#button{
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  transition: 300ms;
-}
-
-#button i{
-  transition: 300ms;
-    margin-left: 15px;
-}
-button.send i{
-  animation: send .2s infinite;
-}
-button.send i{
-  animation: sent 1s forwards;
-}
-@keyframes send {
-  0%, 100%{
-    transform: rotate(-90deg) translateY(-2px);
-  }
-  50%{
-    transform: rotate(-90deg) translateY(2px);
-  }
-}
-@keyframes sent {
-  0%{
-    transform: rotate(-90deg);
-  }
-  100%{
-    transform: rotate(-90deg) translateX(220px) scale(0);
-  }
-}
 .bestsellers{
   background-color:#F4E6DB;
   font-family:'Open Sans', sans-serif;
