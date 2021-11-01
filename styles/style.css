@@ -354,7 +354,7 @@ voor de rest is het gewoon styling*/
   font-size:1em;
   font-family: 'Open Sans', sans-serif;
 }
-/* dit veranderd de tekst dat ij de input staat, normaal is het grijs,
+/* dit veranderd de tekst dat in de input staat, normaal is het grijs,
  maar ik wou het wit hebben en dit is de enige manier dat ik kon vinden dat het veranderd */
 ::placeholder{
   color:white;
@@ -443,7 +443,7 @@ button.send i{
 verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden ze normaal buiten de container komen te staan
 dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
  zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
-.flexbox-test{
+.style1{
   display:flex; 
   flex-wrap: wrap;
   margin:10px;
