@@ -1,6 +1,6 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
 /*Breaking point 1*/
@@ -398,7 +398,7 @@ voor de rest is het gewoon styling*/
   caret-color:white;
   background-color:#003399;
   color:white;
-  width:200px;
+  width:270px;
   border-color: white;
  box-shadow: none;
  border-top-style: none;
@@ -427,6 +427,7 @@ float:right;
 margin-top:-30px;
 
 }
+
 /*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
  het lijkt in style niet op eertse gezicht op een knop, */
 .form button:hover{
@@ -466,20 +467,18 @@ background:none;
 .style1{
   font-family:'Open Sans', sans-serif;
   position: relative;
-  max-width:350px;
-  height: 400px;
+  max-width: 48%;
+  /* height: 400px; */
   text-align: center;
 }
 
-/* eerst heb ik de container flex gemaakt door display:flex te gebruiken,
-verder heb ik flex-wrap toe gepast zodat als de boxes te groot worden dan zouden ze normaal buiten de container komen te staan 
-dat willen we niet dus gebruiken we wrap dat ze zicht in de container. We moeten negatieve margins gebruiken op de flexcontainer zelf. 
-Elke border op de flexcontainer wordt vervolgens naar een tweede wrapper verplaatst,
-zodat de negatieve margin de items naar dat wrapper element kan trekken.*/
+/* her 2021: ik had hiervoor flexbox gebruikt voor de sections in colomen te krijgen
+na het aanpassen voor meer semantiche code (dus alle articles headings te geven) was mn code verward er kon
+ik het niet meer krijgen zoals het was. dus heb ik gekozen om het simpeler te doen met centreren en 
+het inline-block te zetten*/
 .style1{
-  display:flex; 
-  flex-wrap: wrap;
-  margin:-10px;
+  justify-content: center;
+  display: inline-block;
 } 
 
 /* De * wordt gebruikt om alle child elementen te 
@@ -525,10 +524,10 @@ komt dan de code voor dat je hem ziet als je hover over de style1 */
  
   display: none;
 }
-
+/*
 .style1:hover .hoverbutton {
   display: inline-block;
-}
+}*/
 /* Om semantisch correcte HTML te hebben moet je articles een H1-5 geven. 
 Maar ik had voor een paar van mij gebruikte article elementen geen header nodig. Om mijn site accesible te houden voor mensen 
 met screenreaders ook is het handig om 

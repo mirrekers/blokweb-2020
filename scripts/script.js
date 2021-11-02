@@ -1,7 +1,8 @@
-
-
-
-window.onload = function() {
+//Ik wou voor de form een background change hebben als ik email zou submitten
+//maar uiteindelijk was het niet gelukt optijd, ik had hiulp gevraagd en blijkbaar kon 
+// wat ik wou helemaal niet en was er geen tijd meer om het te maken.
+// hieronder had ik dus geprobeerd de code die ik had gevonden die ik vond passen
+// en het lukte niet
   document.getElementById("button").addEventListener("click",updateGradient);
   var colors = new Array(
     [62,35,255],
@@ -62,7 +63,7 @@ window.onload = function() {
       
     }
   }
-  }
+  
   
   setInterval(updateGradient,10);
 
