@@ -15,6 +15,21 @@
 9. https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
 10. https://stackoverflow.com/questions/40891570/show-button-on-hover-only
 
+## Herkansing 2021 
+-Ik moest van vorig jaar alleen animatie zeker aanpassen om het net te halen. wat ik heb gedaan in de weken dit jaar zijn:
+
+De navigatie proberen te verbeteren. Mijn logo was beetje squished.
+
+Het meer accessible maken voor ander soort gebruikers.
+
+Een animatie/Microinteractie toevoegen
+
+De design verbeteren en beter de puntjes op de i doen.
+.-
+
+
+ 
+
 
 ## Eindgesprek (week 7/8)
 
