@@ -1,4 +1,4 @@
-(function($){
+
 
 
 window.onload = function() {
@@ -66,4 +66,3 @@ window.onload = function() {
   
   setInterval(updateGradient,10);
 
-})(jQuery);
