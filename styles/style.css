@@ -446,7 +446,9 @@ margin-top:-30px;
 #gradient button{
   background:none;
 }
-
+#gradient input{
+background:none;
+}
 .bestsellers{
   background-color:#F4E6DB;
   font-family:'Open Sans', sans-serif;
