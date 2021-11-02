@@ -433,6 +433,20 @@ margin-top:-30px;
   font-weight: 600;
 }
 
+/* animatie/ microinteractie */
+
+#gradient
+{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  padding:3em 1.5em 3em 1.5em;
+}
+
+#gradient button{
+  background:none;
+}
+
 .bestsellers{
   background-color:#F4E6DB;
   font-family:'Open Sans', sans-serif;
@@ -527,12 +541,3 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   white-space: nowrap;
   width: 1px;
 }
-
-/* animatie/ microinteractie */
-#gradient
-{
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-
