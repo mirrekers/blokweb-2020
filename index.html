@@ -147,8 +147,12 @@
 
 </footer>
 
-
+function add_custom_script(){
+	?>
 	<script src="scripts/script.js"></script>
+	<?php
+}
+add_action('wp_footer', 'add_custom_script');
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </body>
 	

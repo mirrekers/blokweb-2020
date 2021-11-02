@@ -1,3 +1,6 @@
+(function($){
+
+
 window.onload = function() {
   document.getElementById("button").addEventListener("click",updateGradient);
   var colors = new Array(
@@ -62,3 +65,5 @@ window.onload = function() {
   }
   
   setInterval(updateGradient,10);
+
+})(jQuery);
