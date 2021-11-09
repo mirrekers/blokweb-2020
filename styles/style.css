@@ -570,7 +570,7 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
 }
 
 .ham-b-menu {
-  background-color:beige;
+  background-color:#003399;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -586,7 +586,7 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
  }
 
 .ham-b-menu a{
-  color:black;
+  color:white;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight:bold;
