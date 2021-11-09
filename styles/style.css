@@ -568,13 +568,16 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
 .close:after {
   transform: rotate(-45deg);
 }
-.ham-b-menu{
+.ham-b-menu {
+  background-color:beige;
+  position:absolute;
+  left:10px;
+  width:100%;
+  height:100%;
+}
+.ham-b-menu ul{
   padding: 10em;
   display: inline-block;
-  background-color:white;
-  position:absolute;
-  left:0;
-  right:0;
   
  }
 
