@@ -560,7 +560,7 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   content: ' ';
   height: 33px;
   width: 2px;
-  background-color: #333;
+  background-color:white;
 }
 .close:before {
   transform: rotate(45deg);
