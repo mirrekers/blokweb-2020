@@ -1,12 +1,13 @@
-var nav = document.querySelector("nav");
+var divMenu = document.querySelector("div");
 var menuKnop =document.getElementById("hamburgermenu");
 var closedMenu = document.getElementsByClassName("close")
+classlist.remove("div")
 
 menuKnop.addEventListener("click",function(){
-  nav.classlist.add("visible")
+  div.classlist.add("visible")
 })
 
 closedMenu.addEventListener("click",function(){
-  nav.classlist.remove("visible")
+  div.classlist.remove("visible")
 })
 
