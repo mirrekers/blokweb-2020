@@ -34,7 +34,7 @@ nav ul {
   
 }
 
-nav li{
+nav li,legend{
   margin:0; padding:0;
   flex-flow:column;
   flex-grow:3;
