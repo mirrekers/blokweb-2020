@@ -1,4 +1,4 @@
-var uitgeklapteMenu = document.getElementsByClassName("ham-b-menu");
+var uitgeklapteMenu = document.getElementsByClassName("visible");
 var nav = document.querySelector("nav");
 var menuKnop =document.getElementById("hamburgermenu");
 var closedMenu = document.getElementsByClassName("close")
@@ -8,6 +8,6 @@ menuKnop.addEventListener("click",function(){
 })
 
 closedMenu.addEventListener("click",function(){
-  uitgeklapteMenu.classlist.add("gone")
+  uitgeklapteMenu.classlist.remove("visible")
 })
 
