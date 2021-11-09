@@ -569,7 +569,7 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   transform: rotate(-45deg);
 }
 
-.ham-b-menu {
+.visible {
   background-color:#003399;
   display: flex;
   flex-direction: column;
@@ -579,13 +579,13 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   right:0;
   height:30em;
 }
-.ham-b-menu ul{
+.visible ul{
   padding: 10em;
   display: inline-block;
   
  }
 
-.ham-b-menu a{
+.visible a{
   color:white;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -596,6 +596,3 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   display:none;
 }
 
-.visible{
-  
-}
