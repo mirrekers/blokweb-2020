@@ -543,56 +543,6 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   width: 1px;
 }
 
-.close {
-  position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-}
-.close:hover {
-  opacity: 1;
-}
-.close:before, .close:after {
-  position: absolute;
-  left:10px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color:white;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
-}
-
-.visible {
-  background-color:#003399;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top:-1em;
-  left:0;
-  right:0;
-  height:30em;
-}
-.visible ul{
-  padding: 10em;
-  display: inline-block;
-  
- }
-
-.visible a{
-  color:white;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight:bold;
-  font-size:1.5em;
-}
-
 /* classlist */
 
 
@@ -617,10 +567,18 @@ geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: black;
+   background-color:#003399;
   color: white;
   list-style: none;
   padding-top: 4rem;
+  display:inline-block;
+}
+.menu a{
+  color:white;
+  text-decoration:none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size:1.5em; 
 }
 
 .showMenu {
