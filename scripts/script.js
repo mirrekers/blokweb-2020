@@ -11,6 +11,8 @@
 //   uitgeklapteMenu.classlist.remove("visible")
 // })
 
+//hierboven zie je hoe ik het zelf had geprobeerd. en dan werkte niet. ik had hulp gevraagd
+//en we zijn samen gekomen tot de conclusie dat toggle beter zou werken in deze situatie
 
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
@@ -32,8 +34,3 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 
-// menuItems.forEach( 
-//   function(menuItem) { 
-//     menuItem.addEventListener("click", toggleMenu);
-//   }
-// )
