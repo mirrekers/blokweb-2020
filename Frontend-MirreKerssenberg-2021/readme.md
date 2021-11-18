@@ -93,11 +93,11 @@ gewoon heel veel terug gaan op wat al gemaakt is met een betere oplossingen.
 **Screenshot(s):**
 
 
-![websitescreenshots](images/Screenshot 2020-10-27 at 22.41.45.png)
-![websitescreenshot](images/Screenshot 2020-10-27 at 22.41.57.png)
-![websitescreenshot](images/Screenshot 2020-10-27 at 22.42.14.png)
-![websitescreenshot](images/Screenshot 2020-10-27 at 22.42.48.png)
-![websitescreenshot](images/Screenshot 2020-10-27 at 22.43.03.png)
+![websitescreenshots](Screenshot 2020-10-27 at 22.41.45.png)
+![websitescreenshot](Screenshot 2020-10-27 at 22.41.57.png)
+![websitescreenshot](Screenshot 2020-10-27 at 22.42.14.png)
+![websitescreenshot](Screenshot 2020-10-27 at 22.42.48.png)
+![websitescreenshot](Screenshot 2020-10-27 at 22.43.03.png)
 
 **Breakdown-schets(en):**
-![schets-website](images/schets.jpg)
+![schets-website](schets.jpg)
