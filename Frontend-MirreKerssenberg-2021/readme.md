@@ -29,7 +29,7 @@ De design verbeteren en beter de puntjes op de i doen.
 
 ## Accessibility
 
-![progressie](/accessibility.jpg)
+![toegankelijkheidstest](accessibility.jpg)
 
 ## Eindgesprek (week 7/8)
 
@@ -39,11 +39,11 @@ De design verbeteren en beter de puntjes op de i doen.
 
 -screenshot(s) van je eindresultaat-
 
-![hoofdpagina1](images/Screenshot 2020-10-28 at 14.34.20.png)
-![hoofdpagina2](images/Screenshot 2020-10-28 at 14.34.33.png)
-![detailpagina1](images/Screenshot 2020-10-28 at 14.35.03.png)
-![detailpagina2](images/Screenshot 2020-10-28 at 14.35.20.png)
-![form](images/Screenshot 2020-10-28 at 14.34.45.png)
+![hoofdpagina1](Screenshot 2020-10-28 at 14.34.20.png)
+![hoofdpagina2](Screenshot 2020-10-28 at 14.34.33.png)
+![detailpagina1](Screenshot 2020-10-28 at 14.35.03.png)
+![detailpagina2](Screenshot 2020-10-28 at 14.35.20.png)
+![form](Screenshot 2020-10-28 at 14.34.45.png)
 
 
 ## Voortgang 3 (week 6)
