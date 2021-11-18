@@ -1,0 +1,585 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+/*Breaking point 1*/
+@media (min-width:38em) 
+{ body { 
+  padding:3vw; }
+}
+/*Breaking point 2*/
+@media (min-width:57em)
+ { body { 
+   padding:2.5vw; } }
+
+   img {
+  display: block;
+  max-width: 100%;
+}
+body{
+  width:100%;
+  height:100%;
+}
+/* De list zonder punten voor elk element in de nav weghalen door 
+list-style none te doen*/
+ul {
+list-style:none;
+}
+/* de navigatie flex zetten zodat de list in een row zal staan. 
+En de hoogte erovan veranderen zodat ze allemaal even groot zijn*/
+nav ul {
+  display:flex;
+  height: 2.5em;
+  
+}
+
+nav li,legend{
+  margin:0; padding:0;
+  flex-flow:column;
+  flex-grow:3;
+  justify-content: center;
+ 
+}
+
+nav img{
+  width:1em;
+  height:1em;
+  min-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+nav ul{
+  width: 1em;
+  height: 1em;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.inleiding{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 2.5em 0 2.5em;
+}
+
+.inleiding h1{
+  font-size: 40px;
+}
+
+/* Opmaak en positionering van van de linkje met de opmaak van knoppen */
+.inleiding a{
+  
+    display:inline-block;
+     padding: 16px 50px;
+     margin:5px;
+     border-radius:75px;
+     color:white;
+     background-color: black;
+     font-size:0.75em;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     text-decoration: none;
+    
+  
+}
+/*kleur verandering bij het hoveren van de link-knopjes */
+.inleiding a:hover{
+  background-color:rgb(73, 73, 73);
+}
+
+/* verandering aan standaard linkje zodat het lijkt op een knop*/
+.shopnow a{
+  display:inline-block;
+  padding: 16px 50px;
+  margin:5px;
+  border-radius:75px;
+  border-style:solid;
+  border-width:0.1em;
+  border-color:black;
+  color:black;
+  background-color: white;
+  font-size:0.75em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  margin-top:1em;
+ margin-left:1em;
+ 
+}
+.shopnow a:hover{
+  background-color:black;
+  color:white;
+}
+
+/* Voor je de positie van je element binnen de foto kan 
+krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
+.justglasses{
+position:relative;
+margin:3em 2em 4em 2em;
+
+}
+/* positioning door transform te gebruiken met 50% voor als je niet 
+weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
+.layover{
+  position:absolute;
+  left:40%; top:60%;
+  transform:translate(-40%, -60%);
+  margin:0; padding: 0.5em 1em;
+  font-family:'Open Sans', sans-serif;
+  color:white;
+  font-size: 3.125em;
+  font-weight: 400;
+}
+.heading{
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
+}
+/* Voor je de positie van je element binnen de foto kan 
+krijgen moet je eerst op de parent op position relative zetten zodat the child vanuit het relative de positie vernaderen */
+.justsunglasses{
+  position:relative;
+ margin:3em 2em 4em 2em;
+}
+/* positioning door transform te gebruiken met 50% voor als je niet 
+weet hoe groot een image is en je iets in het midden van een foto wil krijgen*/
+.justsunglasses h2{
+  position:absolute;
+  left:50%; top:50%;
+  transform:translate(-50%, -50%);
+  margin:0; padding: 0.5em 1em;
+  font-family:'Open Sans', sans-serif;
+  color:white;
+  font-size: 3.125em;
+  font-weight: 400;
+}
+
+/* verandering aan standaard linkje zodat het lijkt op een knop */
+.bluelight a{
+
+  padding: 15px 50px;
+  border-radius:75px;
+  color:white;
+  background-color: black;
+  font-size: 0.75em;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  margin-top:1em;
+  margin-left:1em;
+}
+/*kleur verandering bij het hoveren van de link-knopjes */
+.bluelight a:hover{
+  background-color:rgb(73, 73, 73);
+}
+
+
+.bluelight h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size:2.25em;
+  margin-left:0.5em;
+}
+
+.bluelight p{
+  font-family:'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left:1.3em;
+}
+
+
+.test img{
+width:100%;
+object-fit: cover;
+display: block;
+
+}
+.eyetest{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 4em 0 4em 0;
+
+}
+
+.eyetest h2{
+  font-size:36px;
+   text-align: center;
+   font-weight:300;
+
+
+}
+.eyetest p{
+  text-transform: uppercase;
+  margin-left:1.1em;
+}
+.eyetest h3{
+font-weight: 300;
+font-size:1.5em;
+margin-left:0.7em;
+}
+
+.tryon{
+  margin: 5em 0 5em 0;
+}
+.tryon p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left:1em;
+}
+
+.tryon h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left:0.6em;
+}
+
+.vrtryon{
+  margin: 5em 0 5em 0;
+}
+.vrtryon p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left:1em;
+ 
+}
+.vrtryon h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left:0.6em;
+
+}
+.recycle{
+  margin: 5em 0 5em 0;
+}
+.recycle p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left:1em;
+}
+.recycle h2{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left:0.6em;
+}
+/* Linkje dat opgemaakt is als een button */
+.recycle a{
+  padding: 15px 50px;
+  border-radius:75px;
+  color:white;
+  background-color: black;
+  font-size:0.75em;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  margin-left:1em;
+}
+.recycle a:hover{
+  background-color:rgb(73, 73, 73);
+}
+/* Bij de feed wou ik een gap hebben die even breed was als de fotos onder elkaar 
+waren dus heb ik grid gebruikt om ze te vormgeven zoals ik dat wou.eerste zette ik het op display grid om grid toe te passen
+ verder gebruik ik row-gap om de ruimte tussen de fotos horizontaal toe te passen. Daarna grid template columns om 
+ aan te geven hoe groot en hoeveel collomen ik nodig heb. en derest is normal styling zoals centreren en margins */
+
+.feed-grid{
+  display: grid;
+  row-gap: 1.25em;
+  grid-template-columns: 21.875em;
+  justify-content: center;
+  margin: 1.875em 0 1.875em;
+ 
+}
+.feed{
+  background-color: #F9F9FB;
+  font-family:'Open Sans', sans-serif;
+  padding-bottom:30px;
+  margin-bottom:-65px;
+}
+.feed > li{
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width:18.75em;
+  height:18.75em;
+}
+
+.feed h3{
+  font-weight: 600;
+  padding-top:50px;
+  margin-left:1em;
+
+}
+.feed p{
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2em;
+}
+/* Bij de feed is er een zoom als je hovered en ik wou dat ook erin verwerken. 
+Dus heb ik een transform gebruikt met een ease zodat de hover smoothly gaat*/
+.feed img{
+transition: transform 1s;
+transition-timing-function: ease-out;
+width:18.75em;
+height:18.75em;
+max-height:100%;
+object-fit: cover;
+
+}
+
+/* hier wordt de hover togepast met een transform zoom zodat de zoom plaats vindt */
+.feed img:hover{
+  transform:scale(1.1);
+  
+}
+
+.stores{
+  margin: 4em 0 4em 0;
+  background-color: #E6E6E6;
+  margin-bottom:-0.1em;
+}
+.stores h3{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-top:50px;
+  margin-left:1em;
+}
+.stores p{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  padding:1em;
+  
+}
+
+.stores a{
+  display:inline-block;
+  padding: 16px 50px;
+  margin:5px;
+  border-radius:75px;
+  border-style:solid;
+  border-width:0.1em;
+  border-color:black;
+  color:black;
+  background-color: #E6E6E6;
+  font-size:0.75em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  margin-top:1em;
+ margin-bottom:50px;
+ margin-left:1em;
+}
+.stores a:hover{
+  background-color:black;
+  color:white;
+}
+
+.form{
+  background-color:#003399 ;
+  color:white;
+ font-family: 'Open Sans', sans-serif;
+ padding:3em 1.5em 3em 1.5em;
+
+}
+/* ik wou de borders van de input het liefst zoveel mogelijk hebben 
+als sinds het alleen een line heeft aan de onderkant heb ik derest op none gezet. 
+voor de rest is het gewoon styling*/
+ input{
+   margin-top: 20px;
+  caret-color:white;
+  background-color:#003399;
+  color:white;
+  width:270px;
+  border-color: white;
+ box-shadow: none;
+ border-top-style: none;
+ border-right-style: none;
+ border-left-style: none;
+  font-size:1em;
+  font-family: 'Open Sans', sans-serif;
+}
+/* dit veranderd de tekst dat in de input staat, normaal is het grijs,
+ maar ik wou het wit hebben en dit is de enige manier dat ik kon vinden dat het veranderd */
+::placeholder{
+  color:white;
+}
+.form button{
+background-color:#003399;
+color:white;
+border-radius:20px;
+border-color:white;
+padding:5px 20px;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 0.875em;
+font-family: 'Open Sans', sans-serif;
+font-size:0.75em;
+float:right;
+margin-top:25px;
+
+}
+
+/*Hover over dat de tekst groter wordt zodat je weet dat het een knop is.
+ het lijkt in style niet op eertse gezicht op een knop, */
+.form button:hover{
+  font-weight: 600;
+}
+
+/* animatie/ microinteractie */
+
+#gradient
+{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  padding:3em 1.5em 3em 1.5em;
+}
+
+#gradient button{
+  background:none;
+}
+#gradient input{
+background:none;
+}
+.bestsellers{
+  background-color:#F4E6DB;
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  padding:3em 2em 3em 2em;
+}
+.filtering{
+  width:8em;
+  height:8em;
+  margin-top: 3em;
+}
+/*hier doen we basis styling zoals font en size aanpassen,
+ maar we maken ook relative zodat we de foto die verschijn als je
+  hovered precies in het midden zal zijn van de al staande foto */
+.style1{
+  font-family:'Open Sans', sans-serif;
+  position: relative;
+  max-width: 48%;
+  /* height: 400px; */
+  text-align: center;
+}
+
+/* her 2021: ik had hiervoor flexbox gebruikt voor de sections in colomen te krijgen
+na het aanpassen voor meer semantiche code (dus alle articles headings te geven) was mn code verward er kon
+ik het niet meer krijgen zoals het was. dus heb ik gekozen om het simpeler te doen met centreren en 
+het inline-block te zetten*/
+.style1{
+  justify-content: center;
+  display: inline-block;
+} 
+
+/* De * wordt gebruikt om alle child elementen te 
+selecteren en de styling die komt te staan op allemaal toe te passen. 
+*/
+.style1>*{
+  flex: 1 160px;
+  margin: 10px;
+}
+/* Hier plaasten we de hover image boven de al staande foto , en positioneren het precies boven op die*/
+ .style1 .hoverimage{
+  position: absolute;
+  left:0px;
+  top:0px;
+  display:none;
+
+}
+
+.style1:hover .hoverimage{
+  display: block;
+}
+
+.style1 h2{
+  text-align: center;
+  margin:0;
+}
+
+.style1 p{
+  text-align: center;
+  margin:0;
+}
+/* samen met de styling van deze button staat er hier ook in dat hij niet gezien wordt en hieronder 
+komt dan de code voor dat je hem ziet als je hover over de style1 */
+.hoverbutton{
+  background-color: white;
+  padding:5px 10px 5px 10px;
+  font-size:0.875em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border-width: thin;
+  margin-top: 25px;
+  letter-spacing: 1px;
+ 
+  display: none;
+}
+/*
+.style1:hover .hoverbutton {
+  display: inline-block;
+}*/
+/* Om semantisch correcte HTML te hebben moet je articles een H1-5 geven. 
+Maar ik had voor een paar van mij gebruikte article elementen geen header nodig. Om mijn site accesible te houden voor mensen 
+met screenreaders ook is het handig om 
+geen display:none; te gebruiken. Bron:https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ */
+
+.visually-hidden:not(:focus):not(:active){
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* classlist */
+
+
+.hamburger {
+  /*position: fixed;*/
+  z-index: 100;
+  /*top: 1rem;*/
+  /*right: 1rem;*/
+  /*padding: 4px;*/
+ /* border: black solid 1px;
+  background: white;
+  cursor: pointer;*/
+}
+
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+   background-color:white;
+  list-style: none;
+  padding-top: 4rem;
+  display:inline-block;
+}
+.menu a{
+  color:black;
+  text-decoration:none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size:1.5em; 
+}
+
+.showMenu {
+  transform: translateY(0);
+}
